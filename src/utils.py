@@ -1,5 +1,5 @@
 def main():
-    print("Indexer placeholder ready for Day-2.")
+    print("Utils placeholder.")
 
 if __name__ == "__main__":
     main()
