@@ -3,7 +3,7 @@ import pdfplumber
 from pdf2image import convert_from_path
 import pytesseract
 
-def extract_text_from_pdfs(pdf_folder="data/pdfs", txt_folder="data/docs"):
+def extract_text_from_pdfs(pdf_folder="./data/pdfs/", txt_folder="./data/docs/"):
     """
     Extract text from PDFs using pdfplumber.
     If page has no text, fallback to OCR (Tesseract).
