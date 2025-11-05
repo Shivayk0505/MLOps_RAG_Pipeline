@@ -2,10 +2,11 @@
 # vector_db_path: "data/vector_store"
 embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
 top_k: 5
-llm: "mistralai/Mistral-7B-Instruct-v0.2"
+# llm: "mistralai/Mistral-7B-Instruct-v0.2"
 # embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
-llm_model: "mistralai/Mistral-7B-v0.2"
+# llm_model: "mistralai/Mistral-7B-v0.2"
 chunk_size: 500
 chunk_overlap: 50
 data_path: "./data/docs"
 vector_store_path: "./vector_store"
+llm_model: "Qwen/Qwen2.5-0.5B-Instruct"
