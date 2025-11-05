@@ -16,3 +16,14 @@ cd Mlops_project
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
+```
+
+### To test the RAG inference pipeline
+Run the following commands:
+
+```bash
+python src/pdf_to_txt.py
+python -m src.__main__
+python -m src.rag_pipeline
+```
