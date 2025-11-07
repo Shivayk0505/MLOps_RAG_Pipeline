@@ -1,0 +1,46 @@
+Software Engineer
+About Us:
+Bounteous x Accolite is a premier end-to-end digital transformation consultancy, partnering
+with the world’s most ambitious brands. With 5,000+ experts across the Americas, EMEA,
+and APAC, we combine strategy, design, engineering, and data to craft transformative digital
+experiences.
+We harness Co-innovation and AI to spark bold ideas, power smarter solutions, and deliver
+lasting value. Our uncompromising standards for technical and domain expertise enable us to
+create innovative solutions across Strategy, Analytics, Digital Engineering, Cloud, Data & AI,
+Experience Design, Digital Experience Platforms, and Marketing.
+Discover more about our impactful work and expertise by visiting www.bounteous.com.
+The Role
+As a Software Engineer, you will gain hands-on experience working on real projects that span
+the full software development lifecycle. You’ll collaborate with engineers, analysts,
+developers, and industry experts, learning how to translate business needs into solutions that
+improve usability, strengthen performance, and create tangible value for end users.
+This role is designed to accelerate your technical growth and give you practical exposure to
+modern engineering practices through high-impact, global technology projects.
+What You’ll Do
+• Contribute across the software development lifecycle: analysis, design, coding, testing,
+deployment, and support.
+• Write clean, efficient, and maintainable code aligned with best practices.
+• Build and integrate features that enhance functionality and user experience.
+• Support verification through unit and integration testing to ensure quality.
+• Participate in debugging, troubleshooting, and live system improvements.
+• Incorporate feedback from peers and stakeholders to strengthen solutions.
+• Collaborate in agile teams, learning from mentorship and shared expertise.
+• Assist in creating technical documentation and knowledge-sharing materials.
+What We’re Looking For
+• Pursuing B.E./B.Tech./M.E./M.Tech./M.Sc. in Computer Science, MCA, or other related
+technical fields.
+• Consistent academic performance (minimum 60% / 6 CGPA) with no active backlogs.
+• Strong understanding of programming concepts, data structures, and algorithms.
+• Familiarity with at least one programming language: Java, Python or C++.
+• Analytical mindset, problem-solving skills, and eagerness to learn in a collaborative
+environment.
+Location:
+Bengaluru, Chennai, Gurugram, Hyderabad, Mumbai, or any of our India collaboration centres.
+Why Join Us
+At Bounteous x Accolite, you contribute to meaningful projects, not just shadow them. You’ll
+gain:
+• Hands-on exposure to modern engineering practices and AI-driven solutions.
+• Opportunities to work with global teams and diverse industries.
+• Structured mentorship to accelerate your growth.
+• A collaborative culture that values curiosity, innovation, and impact.
+2

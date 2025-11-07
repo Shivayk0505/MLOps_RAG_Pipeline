@@ -1,0 +1,74 @@
+AEH - Advanced Application Engineer
+Batch Eligible – 2026 Pass outs
+Management Level – 11
+ROLE OVERVIEW:
+Work with diverse groups of innovators, to solve industries' and organizations' most challenging
+problems. Use leading-edge technologies and strategies to reinvent the way every job is done
+and help improve the way the world works and lives.
+Create reusable software IP, crafting Small Language Models (SLMs) tailored to domain needs,
+and reimagining legacy workflows as autonomous, agentic systems.
+As an early-career AI-native engineer (0–1 years of experience), you will be at the forefront of
+building domain-specific software platforms powered by GenAI and agentic codebases that drive
+IP-led services. Your mission is to co-create intelligent, self-evolving, and continuously learning
+systems that deliver transformational outcomes—at scale.
+Key Responsibilities:
+• Build Domain IP: Contribute to the creation of SLMs and reusable agentic modules tuned
+to specific industries (e.g., banking, healthcare, supply chain) that serve as the foundation
+of next-gen service offerings.
+• Engineer with Purpose: Develop and evolve domain-aware AI agents that perform
+business tasks traditionally done by human workflows, from document understanding to
+decision-making.
+• Architect the Software of the Future: Move beyond application delivery to design domain-
+centered code frameworks that are self-learning, interpretable, and modular—ready to be
+reused, extended, and monetized.
+• AI-First Development: Use agentic development environments and AI-native tooling (e.g.,
+Copilot, Claude, Gemini) to ideate, generate, test, and deploy software IP faster and
+smarter.
+• Collaborate Across Domains: Work with domain experts, cognitive architects, and data
+scientists to embed enterprise knowledge into software, shaping how services will be
+delivered in an autonomous future.
+• Reimagine Workflows: Help dismantle legacy system boundaries by re-orchestrating
+traditional processes into GenAI-powered experiences—infused with automation,
+prediction, and learning.
+• Lead with Data and Models: Actively engage in curating domain datasets, fine-tuning
+SLMs, and experimenting with prompt engineering and retrieval-augmented generation to
+maximize outcome accuracy and relevance.
+• Operationalize Innovation: Integrate your work into production using scalable cloud-
+native infrastructure, containerization, and MLOps/DevOps practices.
+• Document technical specifications, maintain cloud resource diagrams, and keep track of
+development and deployment activities.
+• Continuously explore and experiment with the latest in AI and cloud technologies to drive
+innovation and productivity improvements.
+What we need?
+We would love you to have:
+Required Skills & Qualifications:
+• Bachelor’s or Master’s in Computer Science, AI, or a related field.
+• Proficiency in modern programming (e.g., Python, Java, Go, etc.) and exposure to
+LLM/SLM tooling.
+• Awareness of transformer models, GenAI architectures, and frameworks like LangChain,
+RAG, or OpenLLM.
+• Ability to think modular, reusable, and product-centric—building for IP, not just project
+delivery.
+• Exposure to agentic AI platforms and tools (e.g., CrewAI, AutoGen, AutoGPT,
+OpenAgents).
+• Familiarity with cloud-native technologies (AWS/GCP/Azure), serverless computing, and
+containerization.
+• Strong analytical mindset, curiosity, and a passion for reshaping software with
+intelligence.
+Preferred Skills:
+• Experience building or fine-tuning SLMs or narrow-domain models.
+• Exposure to building vector databases, semantic retrieval pipelines, and prompt
+engineering techniques.
+• Understanding of domain modeling, ontology creation, and enterprise knowledge
+graphs.
+• Knowledge of responsible AI principles and explainable AI practices.
+• Early-stage contributions to open-source GenAI ecosystems or agent frameworks.
+Accenture has not authorized any agency, company or individual to either collect money or arrive
+on any monetary arrangement in exchange for a job at Accenture.
+Accenture's criterion for hiring candidates is merit. Any agency, company or individual offering
+employment with Accenture in exchange for money is misrepresenting their relationship with
+Accenture, which has not authorized any such action. If you are approached by any entity or
+individuals who demand money or any other form of compensation in return for a job offer at
+Accenture – even if they present themselves as representatives or employees of Accenture –
+please send the details to
+Accenture Business Ethics Line https://businessethicsline.com/accenture

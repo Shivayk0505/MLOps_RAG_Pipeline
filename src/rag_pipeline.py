@@ -59,42 +59,67 @@ def load_llm(model_name, fallback_model="microsoft/Phi-3-mini-4k-instruct", hf_t
 #     if "Answer:" in text:
 #         text = text.split("Answer:")[-1].strip()
 #     return text
-
 def generate_answer(query, chunks, tokenizer, model):
-    context = "\n\n".join(f"[Doc {i+1}]\n{c}" for i, c in enumerate(chunks))
+    # limit context chunk length to reduce repetition feedback
+    context_text = " ".join([c[:800] for c in chunks])
 
-    messages = [
-        {"role": "system", "content":
-         "You are a precise RAG assistant. Use only the provided context. "
-         "Give complete answers. End with [END]."},
-        {"role": "user", "content":
-         f"Context:\n{context}\n\nQuestion:\n{query}\n\n"
-         "Respond with a thorough, complete answer.\nEnd with [END]."}
-    ]
+    system_prompt = (
+        "You are a precise RAG assistant. "
+        "Use the internal context ONLY for reference and never reveal it. "
+        "Give a single, self-contained answer that is concise and easy to read. "
+        "Use 3–5 short bullet points if that improves clarity; otherwise a short paragraph. "
+        "Do NOT repeat the same idea or sentence more than once. "
+        "If the context itself is repetitive, summarize the repeated idea only ONCE. "
+        "Do not ask new questions or add unrelated details."
+    )
 
-    # 👉 QWEN recommended way (this builds prompt + ATTENTION MASK automatically)
-    inputs = tokenizer.apply_chat_template(
-        messages,
-        add_generation_prompt=True,
-        return_tensors="pt"
+    prompt = (
+        f"<SYS>\n{system_prompt}\n"
+        f"[INTERNAL_CONTEXT]: {context_text}\n</SYS>\n\n"
+        f"USER: {query}\nASSISTANT:"
+    )
+
+    model_max = getattr(model.config, "max_position_embeddings", 4096)
+    max_new = 256
+    max_input_tokens = max(256, model_max - max_new - 32)
+
+    inputs = tokenizer(
+        prompt,
+        return_tensors="pt",
+        truncation=True,
+        max_length=max_input_tokens
     ).to(model.device)
+
+    input_len = inputs["input_ids"].shape[1]
 
     with torch.no_grad():
         outputs = model.generate(
-            inputs,
-            max_new_tokens=512,
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs.get("attention_mask", None),
+            max_new_tokens=max_new,
             do_sample=False,
-            repetition_penalty=1.05,
-            eos_token_id=tokenizer.eos_token_id,
-            pad_token_id=tokenizer.eos_token_id
+            num_beams=1,
+            repetition_penalty=1.25   # STRONGER anti-loop
         )
 
-    decoded = tokenizer.decode(
-        outputs[0][inputs.shape[-1]:],
-        skip_special_tokens=True
-    )
+    gen_ids = outputs[0][input_len:]
+    text = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
 
-    return decoded.split("[END]")[0].strip()
+    def _finish_neatly(s: str) -> str:
+        s = s.strip()
+        if s.endswith((".", "!", "?")):
+            return s
+        for sep in [".", "!", "?", "\n- ", "\n• "]:
+            idx = s.rfind(sep)
+            if idx != -1 and idx >= len(s) * 0.6:
+                cut = s[: idx + (1 if sep in {".", "!", "?"} else 0)].strip()
+                if cut:
+                    return cut
+        return s
+
+    return _finish_neatly(text)
+
+
 
 
 def main():
