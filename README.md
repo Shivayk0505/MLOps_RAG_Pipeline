@@ -1,196 +1,60 @@
+RAG PDF Question Answering System — Instructions Summary
+What This System Does
 
+Upload one or multiple PDFs
 
-📘 RAG PDF Question Answering System (MLOps Integrated)
+Extract text automatically (pdfplumber + OCR)
 
-A Retrieval-Augmented Generation system using Mistral LLM, FAISS Vector Search, and Streamlit UI
+Chunk the text
 
-🚀 Overview
+Generate embeddings
 
-This project implements a complete Retrieval-Augmented Generation (RAG) pipeline that allows users to:
+Store vectors in FAISS
 
-✔️ Upload one or multiple PDF files
-✔️ Automatically extract text (pdfplumber + OCR for scanned PDFs)
-✔️ Chunk & embed text using Sentence Transformers
-✔️ Store embeddings in a FAISS vector database
-✔️ Retrieve relevant chunks using cosine similarity
-✔️ Generate accurate answers using Mistral LLM
-✔️ Interact through a clean Streamlit web interface
+Retrieve relevant chunks using cosine similarity
 
-This system follows MLOps best practices, making it modular, reusable, and production-ready.
+Pass retrieved context to Qwen LLM
 
-🧱 Architecture
+Generate accurate answers
 
-PDF Upload
-   ↓
-PDF Text Extraction (pdfplumber + OCR)
-   ↓
-Text Chunking
-   ↓
-Embedding Generation (SentenceTransformers)
-   ↓
-FAISS Vector Store (Cosine Similarity Search)
-   ↓
-Retriever (Top-k Relevant Chunks)
-   ↓
-Mistral LLM Answer Generation
-   ↓
-Streamlit UI
+Interact through Streamlit UI
 
-🧰 Features
-🔹 PDF Processing
+✅ How the System Works (Pipeline)
 
-Extracts text from digital PDFs using pdfplumber
+Upload PDF(s)
 
-Uses Tesseract OCR for scanned PDFs
+Extract text
 
-Stores extracted text in data/docs/
+pdfplumber → digital PDFs
 
-🔹 Chunking
+Tesseract → scanned PDFs
 
-Splits long documents into 300–500 character segments
+Chunk text into 300–500 character segments
 
-Ensures meaningful, context-preserving retrieval
+Generate embeddings using MiniLM
 
-🔹 Embedding Generation
+Store embeddings in FAISS vector DB
 
-Uses sentence-transformers/all-MiniLM-L6-v2
+Retrieve top-k similar chunks using cosine similarity
 
-Creates 384-dimensional semantic embeddings
+Generate answer using Qwen LLM
 
-🔹 FAISS Vector Database
+Display answer via Streamlit UI
 
-Fast vector similarity search
+✅ Technologies Used
 
-Stores all embeddings
+pdfplumber → extract text
 
-Performs cosine similarity search
+Tesseract OCR → scanned PDFs
 
-🔹 RAG Pipeline
+SentenceTransformers → embeddings
 
-Embeds user query
+FAISS → vector search
 
-Retrieves top-k relevant chunks
+Qwen LLM → answer generation
 
-Passes them to Mistral LLM
+Streamlit → frontend
 
-Generates accurate, context-grounded answers
+Loguru → logging
 
-🔹 Streamlit Interface
-
-Upload PDFs
-
-Process documents
-
-Ask natural-language questions
-
-View generated answers
-
-🛠️ Installation
-1. Clone repo
-   git clone https://github.com/<your-username>/<repo>.git
-cd <repo>
-python3 -m venv .mlops_env
-source .mlops_env/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
-
-How to Use
-1️⃣ Upload PDFs
-
-Supports multiple files.
-
-2️⃣ Process PDFs
-
-This step performs:
-
-Text extraction
-
-OCR (if scanned)
-
-Chunking
-
-Embeddings
-
-FAISS index creation
-
-3️⃣ Ask Questions
-
-Ask any question related to the uploaded PDF contents.
-
-Example:
-
-What is the conclusion of the document?
-
-🔍 Retrieval Score Used
-
-We use cosine similarity for retrieval.
-
-FAISS performs inner-product search on normalized vectors:
-
-cosine_similarity=q⋅d
-cosine_similarity=q⋅d
-
-Top-k most similar chunks are retrieved and passed to the LLM.
-
-📊 MLOps Components
-✔️ Loguru Logging
-
-Tracks:
-
-PDF → text extraction
-
-Embeddings generation
-
-Vector indexing
-
-Query processing
-
-✔️ MLflow Tracking (Optional)
-
-Logs:
-
-Chunk count
-
-Processing time
-
-Embedding model
-
-LLM model used
-
-✔️ Modular Pipeline
-
-Each stage (extraction, chunking, embeddings, retrieval, generation) is isolated and reusable.
-
-Future Enhancements
-
-Incremental FAISS indexing
-
-Metadata-based search
-
-Cloud deployment (Hugging Face / AWS)
-
-Cross-encoder re-ranking
-
-GPU inference
-
-Chat memory
-
-🏁 Conclusion
-
-This project demonstrates a complete, production-ready RAG system with:
-
-PDF ingestion
-
-Text & OCR extraction
-
-Embedding generation
-
-Vector search
-
-LLM-based question answering
-
-Streamlit UI
-
-MLOps-ready architecture
-
-It is modular, scalable, and can be deployed or extended easily.
+MLflow → pipeline tracking (optional)
