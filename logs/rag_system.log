@@ -1,0 +1,1456 @@
+2025-11-10 16:01:22 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-10 16:01:22 | INFO | Starting extraction for: AEH FTE JD.pdf
+2025-11-10 16:01:23 | INFO | Extracted and saved: AEH FTE JD.txt
+2025-11-10 16:01:23 | INFO | Starting extraction for: Job Description - Software Engineer.pdf
+2025-11-10 16:01:23 | INFO | Extracted and saved: Job Description - Software Engineer.txt
+2025-11-10 16:01:23 | INFO | Starting extraction for: Pathway_H3_TechMeet14.pdf
+2025-11-10 16:01:50 | INFO | Extracted and saved: Pathway_H3_TechMeet14.txt
+2025-11-10 16:01:50 | INFO | Text extraction completed
+2025-11-10 16:01:50 | INFO | Starting document chunking...
+2025-11-10 16:01:50 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:01:56 | INFO | FAISS index saved → ./data/vector_store/faiss.index | vectors: 96 dim: 384
+2025-11-10 16:01:56 | INFO | Embeddings & FAISS index updated
+2025-11-10 16:01:56 | INFO | Initializing RAG Service...
+2025-11-10 16:01:56 | INFO | Starting document chunking...
+2025-11-10 16:01:56 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:01:56 | INFO | Loaded 96 chunks from documents
+2025-11-10 16:02:00 | INFO | Embedder model warmed up
+2025-11-10 16:02:03 | INFO | LLM loaded: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 16:02:20 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-10 16:02:20 | INFO | Starting extraction for: AEH FTE JD.pdf
+2025-11-10 16:02:20 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-10 16:02:20 | INFO | Starting extraction for: AEH FTE JD.pdf
+2025-11-10 16:02:20 | INFO | Extracted and saved: AEH FTE JD.txt
+2025-11-10 16:02:20 | INFO | Starting extraction for: Job Description - Software Engineer.pdf
+2025-11-10 16:02:20 | INFO | Extracted and saved: Job Description - Software Engineer.txt
+2025-11-10 16:02:20 | INFO | Starting extraction for: Pathway_H3_TechMeet14.pdf
+2025-11-10 16:02:21 | INFO | Extracted and saved: AEH FTE JD.txt
+2025-11-10 16:02:21 | INFO | Starting extraction for: Job Description - Software Engineer.pdf
+2025-11-10 16:02:21 | INFO | Extracted and saved: Job Description - Software Engineer.txt
+2025-11-10 16:02:21 | INFO | Starting extraction for: Pathway_H3_TechMeet14.pdf
+2025-11-10 16:04:52 | INFO | Extracted and saved: Pathway_H3_TechMeet14.txt
+2025-11-10 16:04:54 | INFO | Extracted and saved: Pathway_H3_TechMeet14.txt
+2025-11-10 16:04:54 | INFO | Text extraction completed
+2025-11-10 16:04:54 | INFO | Starting document chunking...
+2025-11-10 16:04:54 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:05:00 | INFO | FAISS index saved → ./data/vector_store/faiss.index | vectors: 96 dim: 384
+2025-11-10 16:05:00 | INFO | Embeddings & FAISS index updated
+2025-11-10 16:05:00 | INFO | Initializing RAG Service...
+2025-11-10 16:05:00 | INFO | Starting document chunking...
+2025-11-10 16:05:00 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:05:00 | INFO | Loaded 96 chunks from documents
+2025-11-10 16:05:07 | INFO | Embedder model warmed up
+2025-11-10 16:05:09 | INFO | LLM loaded: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 16:05:09 | INFO | Query asked: tell me about use case-1?
+2025-11-10 16:05:09 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-10 16:05:09 | INFO | Top-3 chunks retrieved
+2025-11-10 16:05:35 | INFO | RAG answer generated in 25611.39 ms
+2025-11-10 16:05:35 | INFO | User query: tell me about use case-1?
+2025-11-10 16:21:40 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-10 16:21:40 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 16:21:40 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 16:21:40 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 16:21:40 | INFO | Text extraction completed
+2025-11-10 16:21:40 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 16:21:40 | INFO | Initializing RAG Service...
+2025-11-10 16:21:40 | INFO | Starting document chunking...
+2025-11-10 16:21:40 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:21:40 | INFO | Loaded 96 chunks from documents
+2025-11-10 16:21:45 | INFO | Embedder cached + ready
+2025-11-10 16:21:45 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-10 16:21:45 | INFO | FAISS index cached + ready
+2025-11-10 16:21:48 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 16:22:07 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-10 16:22:07 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 16:22:07 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 16:22:07 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 16:22:07 | INFO | Text extraction completed
+2025-11-10 16:22:07 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 16:22:07 | INFO | Initializing RAG Service...
+2025-11-10 16:22:07 | INFO | Starting document chunking...
+2025-11-10 16:22:07 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:22:07 | INFO | Loaded 96 chunks from documents
+2025-11-10 16:22:07 | INFO | Embedder cached + ready
+2025-11-10 16:22:07 | INFO | FAISS index cached + ready
+2025-11-10 16:22:07 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 16:22:07 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-10 16:22:07 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 16:22:07 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 16:22:07 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 16:22:07 | INFO | Text extraction completed
+2025-11-10 16:22:07 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 16:22:07 | INFO | Initializing RAG Service...
+2025-11-10 16:22:07 | INFO | Starting document chunking...
+2025-11-10 16:22:07 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:22:07 | INFO | Loaded 96 chunks from documents
+2025-11-10 16:22:07 | INFO | Embedder cached + ready
+2025-11-10 16:22:07 | INFO | FAISS index cached + ready
+2025-11-10 16:22:07 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 16:22:07 | INFO | Query: what are the qualifications for SD role?
+2025-11-10 16:25:37 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-10 16:25:37 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 16:25:37 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 16:25:37 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 16:25:37 | INFO | Text extraction completed
+2025-11-10 16:25:37 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 16:25:37 | INFO | Initializing RAG Service...
+2025-11-10 16:25:37 | INFO | Starting document chunking...
+2025-11-10 16:25:37 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:25:37 | INFO | Loaded 96 chunks from documents
+2025-11-10 16:25:43 | INFO | Embedder cached + ready
+2025-11-10 16:25:43 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-10 16:25:43 | INFO | FAISS index cached + ready
+2025-11-10 16:25:46 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 16:28:21 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-10 16:28:21 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 16:28:21 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 16:28:21 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 16:28:21 | INFO | Text extraction completed
+2025-11-10 16:28:21 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 16:28:21 | INFO | Initializing RAG Service...
+2025-11-10 16:28:21 | INFO | Starting document chunking...
+2025-11-10 16:28:21 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:28:21 | INFO | Loaded 96 chunks from documents
+2025-11-10 16:28:21 | INFO | Embedder cached + ready
+2025-11-10 16:28:21 | INFO | FAISS index cached + ready
+2025-11-10 16:28:21 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 16:28:21 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-10 16:28:21 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 16:28:21 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 16:28:21 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 16:28:21 | INFO | Text extraction completed
+2025-11-10 16:28:21 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 16:28:21 | INFO | Initializing RAG Service...
+2025-11-10 16:28:21 | INFO | Starting document chunking...
+2025-11-10 16:28:21 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 16:28:21 | INFO | Loaded 96 chunks from documents
+2025-11-10 16:28:21 | INFO | Embedder cached + ready
+2025-11-10 16:28:21 | INFO | FAISS index cached + ready
+2025-11-10 16:28:21 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 16:28:21 | INFO | Query: what are the qualifications for SD role?
+2025-11-10 16:28:21 | INFO | Top-3 chunks retrieved
+2025-11-10 16:28:48 | INFO | RAG answer generated in 26880.90 ms
+2025-11-10 16:28:48 | INFO | User query: what are the qualifications for SD role?
+2025-11-10 20:28:03 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-10 20:28:03 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 20:28:03 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 20:28:03 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 20:28:03 | INFO | Text extraction completed
+2025-11-10 20:28:03 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 20:28:03 | INFO | Initializing RAG Service...
+2025-11-10 20:28:03 | INFO | Starting document chunking...
+2025-11-10 20:28:03 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 20:28:03 | INFO | Loaded 96 chunks from documents
+2025-11-10 20:28:08 | INFO | Embedder cached + ready
+2025-11-10 20:28:08 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-10 20:28:08 | INFO | FAISS index cached + ready
+2025-11-10 20:28:11 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 20:29:02 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-10 20:29:02 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 20:29:02 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 20:29:02 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 20:29:02 | INFO | Text extraction completed
+2025-11-10 20:29:02 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 20:29:02 | INFO | Initializing RAG Service...
+2025-11-10 20:29:02 | INFO | Starting document chunking...
+2025-11-10 20:29:02 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 20:29:02 | INFO | Loaded 96 chunks from documents
+2025-11-10 20:29:02 | INFO | Embedder cached + ready
+2025-11-10 20:29:02 | INFO | FAISS index cached + ready
+2025-11-10 20:29:02 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 20:29:05 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-10 20:29:05 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 20:29:05 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 20:29:05 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 20:29:05 | INFO | Text extraction completed
+2025-11-10 20:29:05 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 20:29:05 | INFO | Initializing RAG Service...
+2025-11-10 20:29:05 | INFO | Starting document chunking...
+2025-11-10 20:29:05 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 20:29:05 | INFO | Loaded 96 chunks from documents
+2025-11-10 20:29:05 | INFO | Embedder cached + ready
+2025-11-10 20:29:05 | INFO | FAISS index cached + ready
+2025-11-10 20:29:05 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 20:29:05 | INFO | Query: What are the qualifications for SD role?
+2025-11-10 20:29:05 | INFO | Top-3 chunks retrieved
+2025-11-10 20:29:27 | INFO | RAG answer generated in 22136.67 ms
+2025-11-10 20:29:27 | INFO | User query: What are the qualifications for SD role?
+2025-11-10 20:30:50 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-10 20:30:50 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 20:30:50 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 20:30:50 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 20:30:50 | INFO | Text extraction completed
+2025-11-10 20:30:50 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 20:30:50 | INFO | Initializing RAG Service...
+2025-11-10 20:30:50 | INFO | Starting document chunking...
+2025-11-10 20:30:50 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 20:30:50 | INFO | Loaded 96 chunks from documents
+2025-11-10 20:30:50 | INFO | Embedder cached + ready
+2025-11-10 20:30:50 | INFO | FAISS index cached + ready
+2025-11-10 20:30:50 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 20:30:51 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-10 20:30:51 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 20:30:51 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 20:30:51 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 20:30:51 | INFO | Text extraction completed
+2025-11-10 20:30:51 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 20:30:51 | INFO | Initializing RAG Service...
+2025-11-10 20:30:51 | INFO | Starting document chunking...
+2025-11-10 20:30:51 | INFO | Chunking completed — total chunks created: 96
+2025-11-10 20:30:51 | INFO | Loaded 96 chunks from documents
+2025-11-10 20:30:51 | INFO | Embedder cached + ready
+2025-11-10 20:30:51 | INFO | FAISS index cached + ready
+2025-11-10 20:30:51 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 20:30:51 | INFO | Query: What are LSM tools?
+2025-11-10 20:30:51 | INFO | Top-3 chunks retrieved
+2025-11-10 20:31:17 | INFO | RAG answer generated in 26731.99 ms
+2025-11-10 20:31:17 | INFO | User query: What are LSM tools?
+2025-11-10 21:29:24 | INFO | PDF uploaded: 142402014_Yedavali_Siva_Kumar_cv_2.pdf
+2025-11-10 21:29:24 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 21:29:24 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 21:29:24 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 21:29:24 | INFO | Starting extraction for: 142402014_Yedavali_Siva_Kumar_cv_2.pdf
+2025-11-10 21:29:24 | INFO | Extracted and saved: 142402014_Yedavali_Siva_Kumar_cv_2.txt
+2025-11-10 21:29:24 | INFO | Text extraction completed
+2025-11-10 21:29:24 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 21:29:24 | INFO | Initializing RAG Service...
+2025-11-10 21:29:24 | INFO | Starting document chunking...
+2025-11-10 21:29:24 | INFO | Chunking completed — total chunks created: 104
+2025-11-10 21:29:24 | INFO | Loaded 104 chunks from documents
+2025-11-10 21:29:30 | INFO | Embedder cached + ready
+2025-11-10 21:29:30 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-10 21:29:30 | INFO | FAISS index cached + ready
+2025-11-10 21:29:33 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 21:29:55 | INFO | PDF uploaded: 142402014_Yedavali_Siva_Kumar_cv_2.pdf
+2025-11-10 21:29:55 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 21:29:55 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 21:29:55 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 21:29:55 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 21:29:55 | INFO | Text extraction completed
+2025-11-10 21:29:55 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 21:29:55 | INFO | Initializing RAG Service...
+2025-11-10 21:29:55 | INFO | Starting document chunking...
+2025-11-10 21:29:55 | INFO | Chunking completed — total chunks created: 104
+2025-11-10 21:29:55 | INFO | Loaded 104 chunks from documents
+2025-11-10 21:29:55 | INFO | Embedder cached + ready
+2025-11-10 21:29:55 | INFO | FAISS index cached + ready
+2025-11-10 21:29:55 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 21:29:55 | INFO | PDF uploaded: 142402014_Yedavali_Siva_Kumar_cv_2.pdf
+2025-11-10 21:29:55 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 21:29:55 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 21:29:55 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 21:29:55 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 21:29:55 | INFO | Text extraction completed
+2025-11-10 21:29:55 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 21:29:55 | INFO | Initializing RAG Service...
+2025-11-10 21:29:55 | INFO | Starting document chunking...
+2025-11-10 21:29:55 | INFO | Chunking completed — total chunks created: 104
+2025-11-10 21:29:55 | INFO | Loaded 104 chunks from documents
+2025-11-10 21:29:55 | INFO | Embedder cached + ready
+2025-11-10 21:29:55 | INFO | FAISS index cached + ready
+2025-11-10 21:29:55 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 21:29:55 | INFO | Query: tell me about cerebral stroke prediction
+2025-11-10 21:29:55 | INFO | Top-3 chunks retrieved
+2025-11-10 21:30:21 | INFO | RAG answer generated in 25656.06 ms
+2025-11-10 21:35:49 | INFO | PDF uploaded: 142402014_Yedavali_Siva_Kumar_cv_2.pdf
+2025-11-10 21:35:49 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 21:35:49 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 21:35:49 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 21:35:49 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 21:35:49 | INFO | Text extraction completed
+2025-11-10 21:35:49 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 21:35:49 | INFO | Initializing RAG Service...
+2025-11-10 21:35:49 | INFO | Starting document chunking...
+2025-11-10 21:35:49 | INFO | Chunking completed — total chunks created: 104
+2025-11-10 21:35:49 | INFO | Loaded 104 chunks from documents
+2025-11-10 21:35:54 | INFO | Embedder cached + ready
+2025-11-10 21:35:54 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-10 21:35:54 | INFO | FAISS index cached + ready
+2025-11-10 21:35:57 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 21:36:24 | INFO | PDF uploaded: 142402014_Yedavali_Siva_Kumar_cv_2.pdf
+2025-11-10 21:36:24 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 21:36:24 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 21:36:24 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 21:36:24 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 21:36:24 | INFO | Text extraction completed
+2025-11-10 21:36:24 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 21:36:24 | INFO | Initializing RAG Service...
+2025-11-10 21:36:24 | INFO | Starting document chunking...
+2025-11-10 21:36:24 | INFO | Chunking completed — total chunks created: 104
+2025-11-10 21:36:24 | INFO | Loaded 104 chunks from documents
+2025-11-10 21:36:24 | INFO | Embedder cached + ready
+2025-11-10 21:36:24 | INFO | FAISS index cached + ready
+2025-11-10 21:36:24 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 21:36:24 | INFO | PDF uploaded: 142402014_Yedavali_Siva_Kumar_cv_2.pdf
+2025-11-10 21:36:24 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 21:36:24 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 21:36:24 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 21:36:24 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 21:36:24 | INFO | Text extraction completed
+2025-11-10 21:36:24 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 21:36:24 | INFO | Initializing RAG Service...
+2025-11-10 21:36:24 | INFO | Starting document chunking...
+2025-11-10 21:36:24 | INFO | Chunking completed — total chunks created: 104
+2025-11-10 21:36:24 | INFO | Loaded 104 chunks from documents
+2025-11-10 21:36:24 | INFO | Embedder cached + ready
+2025-11-10 21:36:24 | INFO | FAISS index cached + ready
+2025-11-10 21:36:24 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 21:36:24 | INFO | Query: tell me about cerebral stroke prediction project.
+2025-11-10 21:36:24 | INFO | Top-3 chunks retrieved
+2025-11-10 21:36:49 | INFO | RAG answer generated in 25508.94 ms
+2025-11-10 21:36:50 | INFO | User query: tell me about cerebral stroke prediction project.
+2025-11-10 21:39:20 | INFO | PDF uploaded: 142402014_Yedavali_Siva_Kumar_cv_2.pdf
+2025-11-10 21:39:20 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 21:39:20 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 21:39:20 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 21:39:20 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 21:39:20 | INFO | Text extraction completed
+2025-11-10 21:39:20 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 21:39:20 | INFO | Initializing RAG Service...
+2025-11-10 21:39:20 | INFO | Starting document chunking...
+2025-11-10 21:39:20 | INFO | Chunking completed — total chunks created: 104
+2025-11-10 21:39:20 | INFO | Loaded 104 chunks from documents
+2025-11-10 21:39:20 | INFO | Embedder cached + ready
+2025-11-10 21:39:20 | INFO | FAISS index cached + ready
+2025-11-10 21:39:20 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 21:40:11 | INFO | PDF uploaded: 142402014_Yedavali_Siva_Kumar_cv_2.pdf
+2025-11-10 21:40:11 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 21:40:11 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 21:40:11 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 21:40:11 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 21:40:11 | INFO | Text extraction completed
+2025-11-10 21:40:11 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 21:40:11 | INFO | Initializing RAG Service...
+2025-11-10 21:40:11 | INFO | Starting document chunking...
+2025-11-10 21:40:11 | INFO | Chunking completed — total chunks created: 104
+2025-11-10 21:40:11 | INFO | Loaded 104 chunks from documents
+2025-11-10 21:40:11 | INFO | Embedder cached + ready
+2025-11-10 21:40:11 | INFO | FAISS index cached + ready
+2025-11-10 21:40:11 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 21:40:11 | INFO | Query: it is there in pdf
+2025-11-10 21:40:12 | INFO | Top-3 chunks retrieved
+2025-11-10 21:40:38 | INFO | RAG answer generated in 26791.42 ms
+2025-11-10 21:40:38 | INFO | User query: it is there in pdf
+2025-11-10 22:15:05 | INFO | PDF uploaded: DS2030_Lab8.pdf
+2025-11-10 22:15:05 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 22:15:05 | INFO | Starting extraction for: DS2030_Lab8.pdf
+2025-11-10 22:15:06 | INFO | Extracted and saved: DS2030_Lab8.txt
+2025-11-10 22:15:06 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 22:15:06 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 22:15:06 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 22:15:06 | INFO | Text extraction completed
+2025-11-10 22:15:06 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 22:15:06 | INFO | Initializing RAG Service...
+2025-11-10 22:15:06 | INFO | Starting document chunking...
+2025-11-10 22:15:06 | INFO | Chunking completed — total chunks created: 140
+2025-11-10 22:15:06 | INFO | Loaded 140 chunks from documents
+2025-11-10 22:15:12 | INFO | Embedder cached + ready
+2025-11-10 22:15:12 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-10 22:15:12 | INFO | FAISS index cached + ready
+2025-11-10 22:15:14 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 22:15:27 | INFO | PDF uploaded: DS2030_Lab8.pdf
+2025-11-10 22:15:27 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 22:15:27 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-10 22:15:27 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 22:15:27 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 22:15:27 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 22:15:27 | INFO | Text extraction completed
+2025-11-10 22:15:27 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 22:15:27 | INFO | Initializing RAG Service...
+2025-11-10 22:15:27 | INFO | Starting document chunking...
+2025-11-10 22:15:27 | INFO | Chunking completed — total chunks created: 140
+2025-11-10 22:15:27 | INFO | Loaded 140 chunks from documents
+2025-11-10 22:15:27 | INFO | Embedder cached + ready
+2025-11-10 22:15:27 | INFO | FAISS index cached + ready
+2025-11-10 22:15:27 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 22:15:57 | INFO | PDF uploaded: DS2030_Lab8.pdf
+2025-11-10 22:15:57 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 22:15:57 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-10 22:15:57 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 22:15:57 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 22:15:57 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 22:15:57 | INFO | Text extraction completed
+2025-11-10 22:15:57 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 22:15:57 | INFO | Initializing RAG Service...
+2025-11-10 22:15:57 | INFO | Starting document chunking...
+2025-11-10 22:15:57 | INFO | Chunking completed — total chunks created: 140
+2025-11-10 22:15:57 | INFO | Loaded 140 chunks from documents
+2025-11-10 22:15:57 | INFO | Embedder cached + ready
+2025-11-10 22:15:57 | INFO | FAISS index cached + ready
+2025-11-10 22:15:57 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 22:15:57 | INFO | PDF uploaded: DS2030_Lab8.pdf
+2025-11-10 22:15:57 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 22:15:57 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-10 22:15:57 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 22:15:57 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 22:15:57 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 22:15:57 | INFO | Text extraction completed
+2025-11-10 22:15:57 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 22:15:57 | INFO | Initializing RAG Service...
+2025-11-10 22:15:57 | INFO | Starting document chunking...
+2025-11-10 22:15:57 | INFO | Chunking completed — total chunks created: 140
+2025-11-10 22:15:57 | INFO | Loaded 140 chunks from documents
+2025-11-10 22:15:57 | INFO | Embedder cached + ready
+2025-11-10 22:15:57 | INFO | FAISS index cached + ready
+2025-11-10 22:15:57 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 22:15:57 | INFO | Query: tell me lab instructions?
+2025-11-10 22:15:57 | INFO | Top-3 chunks retrieved
+2025-11-10 22:16:23 | INFO | RAG answer generated in 26123.83 ms
+2025-11-10 22:16:23 | INFO | User query: tell me lab instructions?
+2025-11-10 22:17:24 | INFO | PDF uploaded: DS2030_Lab8.pdf
+2025-11-10 22:17:24 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 22:17:24 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-10 22:17:24 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 22:17:24 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 22:17:24 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 22:17:24 | INFO | Text extraction completed
+2025-11-10 22:17:24 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 22:17:24 | INFO | Initializing RAG Service...
+2025-11-10 22:17:24 | INFO | Starting document chunking...
+2025-11-10 22:17:24 | INFO | Chunking completed — total chunks created: 140
+2025-11-10 22:17:24 | INFO | Loaded 140 chunks from documents
+2025-11-10 22:17:24 | INFO | Embedder cached + ready
+2025-11-10 22:17:24 | INFO | FAISS index cached + ready
+2025-11-10 22:17:24 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 22:17:25 | INFO | PDF uploaded: DS2030_Lab8.pdf
+2025-11-10 22:17:25 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 22:17:25 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-10 22:17:25 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 22:17:25 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 22:17:25 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 22:17:25 | INFO | Text extraction completed
+2025-11-10 22:17:25 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 22:17:25 | INFO | Initializing RAG Service...
+2025-11-10 22:17:25 | INFO | Starting document chunking...
+2025-11-10 22:17:25 | INFO | Chunking completed — total chunks created: 140
+2025-11-10 22:17:25 | INFO | Loaded 140 chunks from documents
+2025-11-10 22:17:25 | INFO | Embedder cached + ready
+2025-11-10 22:17:25 | INFO | FAISS index cached + ready
+2025-11-10 22:17:25 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 22:17:25 | INFO | Query: tell me about problem statement?
+2025-11-10 22:17:25 | INFO | Top-3 chunks retrieved
+2025-11-10 22:17:51 | INFO | RAG answer generated in 25913.68 ms
+2025-11-10 22:17:51 | INFO | User query: tell me about problem statement?
+2025-11-10 22:19:54 | INFO | PDF uploaded: DS2030_Lab8.pdf
+2025-11-10 22:19:54 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 22:19:54 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-10 22:19:54 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 22:19:54 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 22:19:54 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 22:19:54 | INFO | Text extraction completed
+2025-11-10 22:19:54 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 22:19:54 | INFO | Initializing RAG Service...
+2025-11-10 22:19:54 | INFO | Starting document chunking...
+2025-11-10 22:19:54 | INFO | Chunking completed — total chunks created: 140
+2025-11-10 22:19:54 | INFO | Loaded 140 chunks from documents
+2025-11-10 22:19:54 | INFO | Embedder cached + ready
+2025-11-10 22:19:54 | INFO | FAISS index cached + ready
+2025-11-10 22:19:54 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 22:19:59 | INFO | PDF uploaded: DS2030_Lab8.pdf
+2025-11-10 22:19:59 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-10 22:19:59 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-10 22:19:59 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-10 22:19:59 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-10 22:19:59 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-10 22:19:59 | INFO | Text extraction completed
+2025-11-10 22:19:59 | INFO | Skipped embedding — FAISS already exists
+2025-11-10 22:19:59 | INFO | Initializing RAG Service...
+2025-11-10 22:19:59 | INFO | Starting document chunking...
+2025-11-10 22:19:59 | INFO | Chunking completed — total chunks created: 140
+2025-11-10 22:19:59 | INFO | Loaded 140 chunks from documents
+2025-11-10 22:19:59 | INFO | Embedder cached + ready
+2025-11-10 22:19:59 | INFO | FAISS index cached + ready
+2025-11-10 22:19:59 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-10 22:19:59 | INFO | Query: unga bunga
+2025-11-10 22:19:59 | INFO | Top-3 chunks retrieved
+2025-11-10 22:20:16 | INFO | RAG answer generated in 16406.38 ms
+2025-11-10 22:20:16 | INFO | User query: unga bunga
+2025-11-10 23:44:24 | INFO | Initializing RAG Service...
+2025-11-10 23:44:24 | INFO | Starting document chunking...
+2025-11-10 23:44:24 | INFO | Chunking completed — total chunks created: 140
+2025-11-10 23:44:24 | INFO | Loaded 140 chunks from documents
+2025-11-10 23:44:29 | INFO | Embedder cached + ready
+2025-11-10 23:44:29 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-10 23:44:29 | INFO | FAISS index cached + ready
+2025-11-10 23:44:32 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:03:13 | INFO | PDF uploaded: DS2030Lab_mid.pdf
+2025-11-11 00:03:13 | INFO | Starting extraction for: DS2030Lab_mid.pdf
+2025-11-11 00:03:13 | INFO | Extracted and saved: DS2030Lab_mid.txt
+2025-11-11 00:03:13 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-11 00:03:13 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-11 00:03:13 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-11 00:03:13 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-11 00:03:13 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-11 00:03:13 | INFO | Text extraction completed
+2025-11-11 00:03:13 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:03:13 | INFO | Initializing RAG Service...
+2025-11-11 00:03:13 | INFO | Starting document chunking...
+2025-11-11 00:03:13 | INFO | Chunking completed — total chunks created: 150
+2025-11-11 00:03:13 | INFO | Loaded 150 chunks from documents
+2025-11-11 00:03:19 | INFO | Embedder cached + ready
+2025-11-11 00:03:19 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-11 00:03:19 | INFO | FAISS index cached + ready
+2025-11-11 00:03:22 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:03:43 | INFO | PDF uploaded: DS2030Lab_mid.pdf
+2025-11-11 00:03:43 | INFO | Skip extraction — DS2030Lab_mid.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-11 00:03:43 | INFO | Text extraction completed
+2025-11-11 00:03:43 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:03:43 | INFO | Initializing RAG Service...
+2025-11-11 00:03:43 | INFO | Starting document chunking...
+2025-11-11 00:03:43 | INFO | Chunking completed — total chunks created: 150
+2025-11-11 00:03:43 | INFO | Loaded 150 chunks from documents
+2025-11-11 00:03:43 | INFO | Embedder cached + ready
+2025-11-11 00:03:43 | INFO | FAISS index cached + ready
+2025-11-11 00:03:43 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:03:43 | INFO | PDF uploaded: DS2030Lab_mid.pdf
+2025-11-11 00:03:43 | INFO | Skip extraction — DS2030Lab_mid.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — DS2030_Lab8.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-11 00:03:43 | INFO | Skip extraction — 142402014_Yedavali_Siva_Kumar_cv_2.txt already exists
+2025-11-11 00:03:43 | INFO | Text extraction completed
+2025-11-11 00:03:43 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:03:43 | INFO | Initializing RAG Service...
+2025-11-11 00:03:43 | INFO | Starting document chunking...
+2025-11-11 00:03:43 | INFO | Chunking completed — total chunks created: 150
+2025-11-11 00:03:43 | INFO | Loaded 150 chunks from documents
+2025-11-11 00:03:43 | INFO | Embedder cached + ready
+2025-11-11 00:03:43 | INFO | FAISS index cached + ready
+2025-11-11 00:03:43 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:03:43 | INFO | Query: what are question given in the lab exam?
+2025-11-11 00:03:43 | INFO | Top-3 chunks retrieved
+2025-11-11 00:04:10 | INFO | RAG answer generated in 27002.43 ms
+2025-11-11 00:04:11 | INFO | User query: what are question given in the lab exam?
+2025-11-11 00:17:59 | INFO | PDF uploaded: 142402014_MTP_Phase0.pdf
+2025-11-11 00:17:59 | INFO | Starting extraction for: 142402014_MTP_Phase0.pdf
+2025-11-11 00:17:59 | INFO | Extracted and saved: 142402014_MTP_Phase0.txt
+2025-11-11 00:17:59 | INFO | Text extraction completed
+2025-11-11 00:17:59 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:17:59 | INFO | Initializing RAG Service...
+2025-11-11 00:17:59 | INFO | Starting document chunking...
+2025-11-11 00:17:59 | INFO | Chunking completed — total chunks created: 170
+2025-11-11 00:17:59 | INFO | Loaded 170 chunks from documents
+2025-11-11 00:18:05 | INFO | Embedder cached + ready
+2025-11-11 00:18:05 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-11 00:18:05 | INFO | FAISS index cached + ready
+2025-11-11 00:18:07 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:18:36 | INFO | PDF uploaded: santanu.13.pdf
+2025-11-11 00:18:36 | INFO | Starting extraction for: santanu.13.pdf
+2025-11-11 00:18:36 | INFO | Extracted and saved: santanu.13.txt
+2025-11-11 00:18:36 | INFO | Text extraction completed
+2025-11-11 00:18:36 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:18:36 | INFO | Initializing RAG Service...
+2025-11-11 00:18:36 | INFO | Starting document chunking...
+2025-11-11 00:18:36 | INFO | Chunking completed — total chunks created: 173
+2025-11-11 00:18:36 | INFO | Loaded 173 chunks from documents
+2025-11-11 00:18:36 | INFO | Embedder cached + ready
+2025-11-11 00:18:36 | INFO | FAISS index cached + ready
+2025-11-11 00:18:36 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:19:10 | INFO | PDF uploaded: santanu.13.pdf
+2025-11-11 00:19:10 | INFO | Skip extraction — santanu.13.txt already exists
+2025-11-11 00:19:10 | INFO | Text extraction completed
+2025-11-11 00:19:10 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:19:10 | INFO | Initializing RAG Service...
+2025-11-11 00:19:10 | INFO | Starting document chunking...
+2025-11-11 00:19:10 | INFO | Chunking completed — total chunks created: 173
+2025-11-11 00:19:10 | INFO | Loaded 173 chunks from documents
+2025-11-11 00:19:10 | INFO | Embedder cached + ready
+2025-11-11 00:19:10 | INFO | FAISS index cached + ready
+2025-11-11 00:19:10 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:19:10 | INFO | PDF uploaded: santanu.13.pdf
+2025-11-11 00:19:10 | INFO | Skip extraction — santanu.13.txt already exists
+2025-11-11 00:19:10 | INFO | Text extraction completed
+2025-11-11 00:19:10 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:19:10 | INFO | Initializing RAG Service...
+2025-11-11 00:19:10 | INFO | Starting document chunking...
+2025-11-11 00:19:10 | INFO | Chunking completed — total chunks created: 173
+2025-11-11 00:19:10 | INFO | Loaded 173 chunks from documents
+2025-11-11 00:19:10 | INFO | Embedder cached + ready
+2025-11-11 00:19:10 | INFO | FAISS index cached + ready
+2025-11-11 00:19:10 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:19:10 | INFO | Query: tell me about vision transformers
+2025-11-11 00:19:10 | INFO | Top-3 chunks retrieved
+2025-11-11 00:19:35 | INFO | RAG answer generated in 24478.48 ms
+2025-11-11 00:19:35 | INFO | User query: tell me about vision transformers
+2025-11-11 00:20:07 | INFO | PDF uploaded: Katomarans Problem Statement.pdf
+2025-11-11 00:20:07 | INFO | Starting extraction for: Katomarans Problem Statement.pdf
+2025-11-11 00:20:07 | INFO | Extracted and saved: Katomarans Problem Statement.txt
+2025-11-11 00:20:07 | INFO | Text extraction completed
+2025-11-11 00:20:07 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:20:07 | INFO | Initializing RAG Service...
+2025-11-11 00:20:07 | INFO | Starting document chunking...
+2025-11-11 00:20:07 | INFO | Chunking completed — total chunks created: 183
+2025-11-11 00:20:07 | INFO | Loaded 183 chunks from documents
+2025-11-11 00:20:07 | INFO | Embedder cached + ready
+2025-11-11 00:20:07 | INFO | FAISS index cached + ready
+2025-11-11 00:20:07 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:20:49 | INFO | PDF uploaded: Katomarans Problem Statement.pdf
+2025-11-11 00:20:49 | INFO | Skip extraction — Katomarans Problem Statement.txt already exists
+2025-11-11 00:20:49 | INFO | Text extraction completed
+2025-11-11 00:20:49 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:20:49 | INFO | Initializing RAG Service...
+2025-11-11 00:20:49 | INFO | Starting document chunking...
+2025-11-11 00:20:49 | INFO | Chunking completed — total chunks created: 183
+2025-11-11 00:20:49 | INFO | Loaded 183 chunks from documents
+2025-11-11 00:20:49 | INFO | Embedder cached + ready
+2025-11-11 00:20:49 | INFO | FAISS index cached + ready
+2025-11-11 00:20:49 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:20:49 | INFO | PDF uploaded: Katomarans Problem Statement.pdf
+2025-11-11 00:20:49 | INFO | Skip extraction — Katomarans Problem Statement.txt already exists
+2025-11-11 00:20:49 | INFO | Text extraction completed
+2025-11-11 00:20:49 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:20:49 | INFO | Initializing RAG Service...
+2025-11-11 00:20:49 | INFO | Starting document chunking...
+2025-11-11 00:20:49 | INFO | Chunking completed — total chunks created: 183
+2025-11-11 00:20:49 | INFO | Loaded 183 chunks from documents
+2025-11-11 00:20:49 | INFO | Embedder cached + ready
+2025-11-11 00:20:49 | INFO | FAISS index cached + ready
+2025-11-11 00:20:49 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:20:49 | INFO | Query: which models we should use here?
+2025-11-11 00:20:49 | INFO | Top-3 chunks retrieved
+2025-11-11 00:21:16 | INFO | RAG answer generated in 26736.71 ms
+2025-11-11 00:21:16 | INFO | User query: which models we should use here?
+2025-11-11 00:26:52 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-11 00:26:52 | INFO | Starting extraction for: Pathway_H3_TechMeet14.pdf
+2025-11-11 00:27:19 | INFO | Extracted and saved: Pathway_H3_TechMeet14.txt
+2025-11-11 00:27:19 | INFO | Text extraction completed
+2025-11-11 00:27:19 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:27:19 | INFO | Initializing RAG Service...
+2025-11-11 00:27:19 | INFO | Starting document chunking...
+2025-11-11 00:27:19 | INFO | Chunking completed — total chunks created: 78
+2025-11-11 00:27:19 | INFO | Loaded 78 chunks from documents
+2025-11-11 00:27:19 | INFO | Embedder cached + ready
+2025-11-11 00:27:19 | INFO | FAISS index cached + ready
+2025-11-11 00:27:19 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:28:12 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-11 00:28:12 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-11 00:28:12 | INFO | Text extraction completed
+2025-11-11 00:28:12 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:28:12 | INFO | Initializing RAG Service...
+2025-11-11 00:28:12 | INFO | Starting document chunking...
+2025-11-11 00:28:12 | INFO | Chunking completed — total chunks created: 78
+2025-11-11 00:28:12 | INFO | Loaded 78 chunks from documents
+2025-11-11 00:28:12 | INFO | Embedder cached + ready
+2025-11-11 00:28:12 | INFO | FAISS index cached + ready
+2025-11-11 00:28:12 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:28:12 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-11 00:28:12 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-11 00:28:12 | INFO | Text extraction completed
+2025-11-11 00:28:12 | INFO | Skipped embedding — FAISS already exists
+2025-11-11 00:28:12 | INFO | Initializing RAG Service...
+2025-11-11 00:28:12 | INFO | Starting document chunking...
+2025-11-11 00:28:12 | INFO | Chunking completed — total chunks created: 78
+2025-11-11 00:28:12 | INFO | Loaded 78 chunks from documents
+2025-11-11 00:28:12 | INFO | Embedder cached + ready
+2025-11-11 00:28:12 | INFO | FAISS index cached + ready
+2025-11-11 00:28:12 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-11 00:28:12 | INFO | Query: tell about AI investmet use case
+2025-11-11 00:28:12 | INFO | Top-3 chunks retrieved
+2025-11-11 00:28:39 | INFO | RAG answer generated in 26618.02 ms
+2025-11-11 00:28:39 | INFO | User query: tell about AI investmet use case
+2025-11-13 16:28:31 | INFO | PDF uploaded: DS2030Lab_mid.pdf
+2025-11-13 16:28:31 | INFO | Starting extraction for: DS2030Lab_mid.pdf
+2025-11-13 16:28:31 | INFO | Extracted and saved: DS2030Lab_mid.txt
+2025-11-13 16:28:31 | INFO | Text extraction completed
+2025-11-13 16:28:31 | INFO | Skipped embedding — FAISS already exists
+2025-11-13 16:28:31 | INFO | Initializing RAG Service...
+2025-11-13 16:28:31 | INFO | Starting document chunking...
+2025-11-13 16:28:31 | INFO | Chunking completed — total chunks created: 88
+2025-11-13 16:28:31 | INFO | Loaded 88 chunks from documents
+2025-11-13 16:28:36 | INFO | Embedder cached + ready
+2025-11-13 16:28:36 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-13 16:28:36 | INFO | FAISS index cached + ready
+2025-11-13 16:28:38 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:29:02 | INFO | PDF uploaded: DS2030Lab_mid.pdf
+2025-11-13 16:29:02 | INFO | Skip extraction — DS2030Lab_mid.txt already exists
+2025-11-13 16:29:02 | INFO | Text extraction completed
+2025-11-13 16:29:02 | INFO | Skipped embedding — FAISS already exists
+2025-11-13 16:29:02 | INFO | Initializing RAG Service...
+2025-11-13 16:29:02 | INFO | Starting document chunking...
+2025-11-13 16:29:02 | INFO | Chunking completed — total chunks created: 88
+2025-11-13 16:29:02 | INFO | Loaded 88 chunks from documents
+2025-11-13 16:29:02 | INFO | Embedder cached + ready
+2025-11-13 16:29:02 | INFO | FAISS index cached + ready
+2025-11-13 16:29:02 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:29:02 | INFO | PDF uploaded: DS2030Lab_mid.pdf
+2025-11-13 16:29:02 | INFO | Skip extraction — DS2030Lab_mid.txt already exists
+2025-11-13 16:29:02 | INFO | Text extraction completed
+2025-11-13 16:29:02 | INFO | Skipped embedding — FAISS already exists
+2025-11-13 16:29:02 | INFO | Initializing RAG Service...
+2025-11-13 16:29:02 | INFO | Starting document chunking...
+2025-11-13 16:29:02 | INFO | Chunking completed — total chunks created: 88
+2025-11-13 16:29:02 | INFO | Loaded 88 chunks from documents
+2025-11-13 16:29:02 | INFO | Embedder cached + ready
+2025-11-13 16:29:02 | INFO | FAISS index cached + ready
+2025-11-13 16:29:02 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:29:02 | INFO | Query: what are the qualifications for SD role?
+2025-11-13 16:29:02 | INFO | Top-3 chunks retrieved
+2025-11-13 16:29:23 | INFO | RAG answer generated in 20815.04 ms
+2025-11-13 16:29:23 | INFO | User query: what are the qualifications for SD role?
+2025-11-13 16:29:53 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:29:53 | INFO | Starting extraction for: AEH FTE JD.pdf
+2025-11-13 16:29:54 | INFO | Extracted and saved: AEH FTE JD.txt
+2025-11-13 16:29:54 | INFO | Text extraction completed
+2025-11-13 16:29:54 | INFO | Skipped embedding — FAISS already exists
+2025-11-13 16:29:54 | INFO | Initializing RAG Service...
+2025-11-13 16:29:54 | INFO | Starting document chunking...
+2025-11-13 16:29:54 | INFO | Chunking completed — total chunks created: 99
+2025-11-13 16:29:54 | INFO | Loaded 99 chunks from documents
+2025-11-13 16:29:54 | INFO | Embedder cached + ready
+2025-11-13 16:29:54 | INFO | FAISS index cached + ready
+2025-11-13 16:29:54 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:30:16 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:30:16 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 16:30:16 | INFO | Text extraction completed
+2025-11-13 16:30:16 | INFO | Skipped embedding — FAISS already exists
+2025-11-13 16:30:16 | INFO | Initializing RAG Service...
+2025-11-13 16:30:16 | INFO | Starting document chunking...
+2025-11-13 16:30:16 | INFO | Chunking completed — total chunks created: 99
+2025-11-13 16:30:16 | INFO | Loaded 99 chunks from documents
+2025-11-13 16:30:16 | INFO | Embedder cached + ready
+2025-11-13 16:30:16 | INFO | FAISS index cached + ready
+2025-11-13 16:30:16 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:30:16 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:30:16 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 16:30:16 | INFO | Text extraction completed
+2025-11-13 16:30:16 | INFO | Skipped embedding — FAISS already exists
+2025-11-13 16:30:16 | INFO | Initializing RAG Service...
+2025-11-13 16:30:16 | INFO | Starting document chunking...
+2025-11-13 16:30:16 | INFO | Chunking completed — total chunks created: 99
+2025-11-13 16:30:16 | INFO | Loaded 99 chunks from documents
+2025-11-13 16:30:16 | INFO | Embedder cached + ready
+2025-11-13 16:30:16 | INFO | FAISS index cached + ready
+2025-11-13 16:30:16 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:30:16 | INFO | Query: what are the qualifications for SD role?
+2025-11-13 16:30:16 | INFO | Top-3 chunks retrieved
+2025-11-13 16:30:43 | INFO | RAG answer generated in 26609.06 ms
+2025-11-13 16:30:43 | INFO | User query: what are the qualifications for SD role?
+2025-11-13 16:34:40 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:34:40 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 16:34:40 | INFO | Text extraction completed
+2025-11-13 16:34:40 | INFO | Skipped embedding — FAISS already exists
+2025-11-13 16:34:40 | INFO | Initializing RAG Service...
+2025-11-13 16:34:40 | INFO | Starting document chunking...
+2025-11-13 16:34:40 | INFO | Chunking completed — total chunks created: 99
+2025-11-13 16:34:40 | INFO | Loaded 99 chunks from documents
+2025-11-13 16:34:40 | INFO | Embedder cached + ready
+2025-11-13 16:34:40 | INFO | FAISS index cached + ready
+2025-11-13 16:34:40 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:34:40 | INFO | Query: what are the qualifications for SD role?
+2025-11-13 16:34:40 | INFO | Top-3 chunks retrieved
+2025-11-13 16:35:07 | INFO | RAG answer generated in 27061.43 ms
+2025-11-13 16:35:07 | INFO | User query: what are the qualifications for SD role?
+2025-11-13 16:35:32 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:35:32 | INFO | Starting extraction for: Job Description - Software Engineer.pdf
+2025-11-13 16:35:32 | INFO | Extracted and saved: Job Description - Software Engineer.txt
+2025-11-13 16:35:32 | INFO | Text extraction completed
+2025-11-13 16:35:32 | INFO | Skipped embedding — FAISS already exists
+2025-11-13 16:35:32 | INFO | Initializing RAG Service...
+2025-11-13 16:35:32 | INFO | Starting document chunking...
+2025-11-13 16:35:32 | INFO | Chunking completed — total chunks created: 106
+2025-11-13 16:35:32 | INFO | Loaded 106 chunks from documents
+2025-11-13 16:35:32 | INFO | Embedder cached + ready
+2025-11-13 16:35:32 | INFO | FAISS index cached + ready
+2025-11-13 16:35:32 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:35:35 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:35:35 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 16:35:35 | INFO | Text extraction completed
+2025-11-13 16:35:35 | INFO | Skipped embedding — FAISS already exists
+2025-11-13 16:35:35 | INFO | Initializing RAG Service...
+2025-11-13 16:35:35 | INFO | Starting document chunking...
+2025-11-13 16:35:35 | INFO | Chunking completed — total chunks created: 106
+2025-11-13 16:35:35 | INFO | Loaded 106 chunks from documents
+2025-11-13 16:35:35 | INFO | Embedder cached + ready
+2025-11-13 16:35:35 | INFO | FAISS index cached + ready
+2025-11-13 16:35:35 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:35:35 | INFO | Query: what are the qualifications for SD role?
+2025-11-13 16:35:35 | INFO | Top-3 chunks retrieved
+2025-11-13 16:36:02 | INFO | RAG answer generated in 26981.63 ms
+2025-11-13 16:36:02 | INFO | User query: what are the qualifications for SD role?
+2025-11-13 16:49:00 | INFO | 🧹 Cleared old documents and FAISS index
+2025-11-13 16:49:00 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:49:09 | INFO | 🧹 Cleared old documents and FAISS index
+2025-11-13 16:49:09 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:49:09 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:49:12 | INFO | 🧹 Cleared old documents and FAISS index
+2025-11-13 16:49:12 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:49:12 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:49:12 | INFO | Starting extraction for: DS2030Lab_mid.pdf
+2025-11-13 16:49:12 | INFO | Extracted and saved: DS2030Lab_mid.txt
+2025-11-13 16:49:12 | INFO | Starting extraction for: AEH FTE JD.pdf
+2025-11-13 16:49:12 | INFO | Extracted and saved: AEH FTE JD.txt
+2025-11-13 16:49:12 | INFO | Starting extraction for: Job Description - Software Engineer.pdf
+2025-11-13 16:49:12 | INFO | Extracted and saved: Job Description - Software Engineer.txt
+2025-11-13 16:49:12 | INFO | Starting extraction for: Pathway_H3_TechMeet14.pdf
+2025-11-13 16:49:40 | INFO | Extracted and saved: Pathway_H3_TechMeet14.txt
+2025-11-13 16:49:40 | INFO | Text extraction completed
+2025-11-13 16:49:40 | INFO | Starting document chunking...
+2025-11-13 16:49:40 | INFO | Chunking completed — total chunks created: 106
+2025-11-13 16:49:47 | INFO | FAISS index saved → ./data/vector_store/faiss.index | vectors: 106 dim: 384
+2025-11-13 16:49:47 | INFO | FAISS index and embeddings created fresh
+2025-11-13 16:49:47 | INFO | Initializing RAG Service...
+2025-11-13 16:49:47 | INFO | Starting document chunking...
+2025-11-13 16:49:47 | INFO | Chunking completed — total chunks created: 106
+2025-11-13 16:49:47 | INFO | Loaded 106 chunks from documents
+2025-11-13 16:49:51 | INFO | Embedder cached + ready
+2025-11-13 16:49:51 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-13 16:49:51 | INFO | FAISS index cached + ready
+2025-11-13 16:49:54 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:50:18 | INFO | 🧹 Cleared old documents and FAISS index
+2025-11-13 16:50:18 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:50:18 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:50:18 | INFO | 🧹 Cleared old documents and FAISS index
+2025-11-13 16:50:18 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:50:18 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:50:33 | INFO | 🧹 Cleared old documents and FAISS index
+2025-11-13 16:50:33 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:50:33 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:50:33 | INFO | Starting extraction for: DS2030Lab_mid.pdf
+2025-11-13 16:50:33 | INFO | Extracted and saved: DS2030Lab_mid.txt
+2025-11-13 16:50:33 | INFO | Starting extraction for: AEH FTE JD.pdf
+2025-11-13 16:50:34 | INFO | Extracted and saved: AEH FTE JD.txt
+2025-11-13 16:50:34 | INFO | Starting extraction for: Job Description - Software Engineer.pdf
+2025-11-13 16:50:34 | INFO | Extracted and saved: Job Description - Software Engineer.txt
+2025-11-13 16:50:34 | INFO | Starting extraction for: Pathway_H3_TechMeet14.pdf
+2025-11-13 16:51:02 | INFO | Extracted and saved: Pathway_H3_TechMeet14.txt
+2025-11-13 16:51:02 | INFO | Text extraction completed
+2025-11-13 16:51:02 | INFO | Starting document chunking...
+2025-11-13 16:51:02 | INFO | Chunking completed — total chunks created: 106
+2025-11-13 16:51:08 | INFO | FAISS index saved → ./data/vector_store/faiss.index | vectors: 106 dim: 384
+2025-11-13 16:51:08 | INFO | FAISS index and embeddings created fresh
+2025-11-13 16:51:08 | INFO | Initializing RAG Service...
+2025-11-13 16:51:08 | INFO | Starting document chunking...
+2025-11-13 16:51:08 | INFO | Chunking completed — total chunks created: 106
+2025-11-13 16:51:08 | INFO | Loaded 106 chunks from documents
+2025-11-13 16:51:08 | INFO | Embedder cached + ready
+2025-11-13 16:51:08 | INFO | FAISS index cached + ready
+2025-11-13 16:51:08 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:51:41 | INFO | 🧹 Cleared old documents and FAISS index
+2025-11-13 16:51:41 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:51:41 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:51:41 | INFO | 🧹 Cleared old documents and FAISS index
+2025-11-13 16:51:41 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:51:41 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:56:48 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:56:48 | INFO | Starting extraction for: AEH FTE JD.pdf
+2025-11-13 16:56:48 | INFO | Extracted and saved: AEH FTE JD.txt
+2025-11-13 16:56:48 | INFO | Text extraction completed for all PDFs.
+2025-11-13 16:56:48 | INFO | No FAISS found. Creating embeddings fresh...
+2025-11-13 16:56:48 | INFO | Starting document chunking...
+2025-11-13 16:56:48 | INFO | Chunking completed — total chunks created: 11
+2025-11-13 16:56:54 | INFO | FAISS index saved → ./data/vector_store/faiss.index | vectors: 11 dim: 384
+2025-11-13 16:56:54 | INFO | Embeddings & FAISS index created successfully.
+2025-11-13 16:56:54 | INFO | Initializing RAG Service...
+2025-11-13 16:56:54 | INFO | Starting document chunking...
+2025-11-13 16:56:54 | INFO | Chunking completed — total chunks created: 11
+2025-11-13 16:56:54 | INFO | Loaded 11 chunks from documents
+2025-11-13 16:56:59 | INFO | Embedder cached + ready
+2025-11-13 16:56:59 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-13 16:56:59 | INFO | FAISS index cached + ready
+2025-11-13 16:56:59 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:56:59 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 16:56:59 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:56:59 | INFO | Starting extraction for: Job Description - Software Engineer.pdf
+2025-11-13 16:56:59 | INFO | Extracted and saved: Job Description - Software Engineer.txt
+2025-11-13 16:56:59 | INFO | Text extraction completed for all PDFs.
+2025-11-13 16:56:59 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 16:56:59 | INFO | Initializing RAG Service...
+2025-11-13 16:56:59 | INFO | Starting document chunking...
+2025-11-13 16:56:59 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 16:56:59 | INFO | Loaded 18 chunks from documents
+2025-11-13 16:56:59 | INFO | Embedder cached + ready
+2025-11-13 16:56:59 | INFO | FAISS index cached + ready
+2025-11-13 16:57:02 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:57:04 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:57:28 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:57:28 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 16:57:28 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:57:28 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 16:57:28 | INFO | Text extraction completed for all PDFs.
+2025-11-13 16:57:28 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 16:57:28 | INFO | Initializing RAG Service...
+2025-11-13 16:57:28 | INFO | Starting document chunking...
+2025-11-13 16:57:28 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 16:57:28 | INFO | Loaded 18 chunks from documents
+2025-11-13 16:57:28 | INFO | Embedder cached + ready
+2025-11-13 16:57:28 | INFO | FAISS index cached + ready
+2025-11-13 16:57:28 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:57:28 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 16:57:28 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 16:57:28 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 16:57:28 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 16:57:28 | INFO | Text extraction completed for all PDFs.
+2025-11-13 16:57:28 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 16:57:28 | INFO | Initializing RAG Service...
+2025-11-13 16:57:28 | INFO | Starting document chunking...
+2025-11-13 16:57:28 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 16:57:28 | INFO | Loaded 18 chunks from documents
+2025-11-13 16:57:28 | INFO | Embedder cached + ready
+2025-11-13 16:57:28 | INFO | FAISS index cached + ready
+2025-11-13 16:57:28 | INFO | LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 16:57:28 | INFO | Query: what are the qualifications for SD role?
+2025-11-13 16:57:28 | INFO | Top-3 chunks retrieved
+2025-11-13 16:57:55 | INFO | RAG answer generated in 26097.19 ms
+2025-11-13 16:57:55 | INFO | User query: what are the qualifications for SD role?
+2025-11-13 17:01:20 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 17:01:20 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 17:01:20 | INFO | Text extraction completed for all PDFs.
+2025-11-13 17:01:20 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 17:01:20 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 17:01:20 | INFO | Starting document chunking...
+2025-11-13 17:01:20 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 17:01:20 | INFO | 📘 Loaded 18 chunks from documents
+2025-11-13 17:01:25 | INFO | 🧩 Embedder cached + ready
+2025-11-13 17:01:25 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-13 17:01:25 | INFO | 📚 FAISS index cached + ready
+2025-11-13 17:01:28 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 17:01:29 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 17:01:29 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 17:01:29 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 17:01:29 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 17:01:29 | INFO | Text extraction completed for all PDFs.
+2025-11-13 17:01:29 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 17:01:29 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 17:01:29 | INFO | Starting document chunking...
+2025-11-13 17:01:29 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 17:01:29 | INFO | 📘 Loaded 18 chunks from documents
+2025-11-13 17:01:29 | INFO | 🧩 Embedder cached + ready
+2025-11-13 17:01:29 | INFO | 📚 FAISS index cached + ready
+2025-11-13 17:01:29 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 17:01:47 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 17:01:47 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 17:01:47 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 17:01:47 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 17:01:47 | INFO | Text extraction completed for all PDFs.
+2025-11-13 17:01:47 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 17:01:47 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 17:01:47 | INFO | Starting document chunking...
+2025-11-13 17:01:47 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 17:01:47 | INFO | 📘 Loaded 18 chunks from documents
+2025-11-13 17:01:47 | INFO | 🧩 Embedder cached + ready
+2025-11-13 17:01:47 | INFO | 📚 FAISS index cached + ready
+2025-11-13 17:01:47 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 17:01:47 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 17:01:47 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 17:01:47 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 17:01:47 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 17:01:47 | INFO | Text extraction completed for all PDFs.
+2025-11-13 17:01:47 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 17:01:47 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 17:01:47 | INFO | Starting document chunking...
+2025-11-13 17:01:48 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 17:01:48 | INFO | 📘 Loaded 18 chunks from documents
+2025-11-13 17:01:48 | INFO | 🧩 Embedder cached + ready
+2025-11-13 17:01:48 | INFO | 📚 FAISS index cached + ready
+2025-11-13 17:01:48 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 17:01:48 | INFO | User query received: what are the qualifications for Sd role?
+2025-11-13 17:01:48 | INFO | Top-3 chunks retrieved with scores
+2025-11-13 17:02:14 | INFO | 🕒 RAG answer generated in 26225.18 ms
+2025-11-13 17:02:14 | INFO | User query: what are the qualifications for Sd role?
+2025-11-13 17:06:11 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 17:06:11 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 17:06:11 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 17:06:11 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 17:06:11 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 17:06:11 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 17:06:11 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 17:06:11 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 17:06:11 | INFO | Text extraction completed for all PDFs.
+2025-11-13 17:06:11 | INFO | Text extraction completed for all PDFs.
+2025-11-13 17:06:11 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 17:06:11 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 17:06:11 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 17:06:11 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 17:06:11 | INFO | Starting document chunking...
+2025-11-13 17:06:11 | INFO | Starting document chunking...
+2025-11-13 17:06:11 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 17:06:11 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 17:06:11 | INFO | 📘 Loaded 18 chunks from documents
+2025-11-13 17:06:11 | INFO | 📘 Loaded 18 chunks from documents
+2025-11-13 17:06:16 | INFO | 🧩 Embedder cached + ready
+2025-11-13 17:06:16 | INFO | 🧩 Embedder cached + ready
+2025-11-13 17:06:16 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-13 17:06:16 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-13 17:06:16 | INFO | 📚 FAISS index cached + ready
+2025-11-13 17:06:16 | INFO | 📚 FAISS index cached + ready
+2025-11-13 17:06:21 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 17:06:21 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 17:10:37 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 17:10:37 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 17:10:37 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 17:10:37 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 17:10:37 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 17:10:37 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-13 17:10:37 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 17:10:37 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-13 17:10:37 | INFO | Text extraction completed for all PDFs.
+2025-11-13 17:10:37 | INFO | Text extraction completed for all PDFs.
+2025-11-13 17:10:37 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 17:10:37 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 17:10:37 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 17:10:37 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 17:10:37 | INFO | Starting document chunking...
+2025-11-13 17:10:37 | INFO | Starting document chunking...
+2025-11-13 17:10:37 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 17:10:37 | INFO | Chunking completed — total chunks created: 18
+2025-11-13 17:10:37 | INFO | 📘 Loaded 18 chunks from documents
+2025-11-13 17:10:37 | INFO | 📘 Loaded 18 chunks from documents
+2025-11-13 17:10:37 | INFO | 🧩 Embedder cached + ready
+2025-11-13 17:10:37 | INFO | 🧩 Embedder cached + ready
+2025-11-13 17:10:37 | INFO | 📚 FAISS index cached + ready
+2025-11-13 17:10:37 | INFO | 📚 FAISS index cached + ready
+2025-11-13 17:10:37 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 17:10:37 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 17:10:37 | INFO | User query received: what are the qualifications for Sd role?
+2025-11-13 17:10:37 | INFO | User query received: what are the qualifications for Sd role?
+2025-11-13 17:10:37 | INFO | Top-3 chunks retrieved with scores
+2025-11-13 17:10:37 | INFO | Top-3 chunks retrieved with scores
+2025-11-13 17:11:29 | INFO | 🕒 RAG answer generated in 51984.51 ms
+2025-11-13 17:11:29 | INFO | 🕒 RAG answer generated in 51984.51 ms
+2025-11-13 17:11:29 | INFO | User query: what are the qualifications for Sd role?
+2025-11-13 17:11:29 | INFO | User query: what are the qualifications for Sd role?
+2025-11-13 19:11:13 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-13 19:11:13 | INFO | Starting extraction for: Pathway_H3_TechMeet14.pdf
+2025-11-13 19:11:40 | INFO | Extracted and saved: Pathway_H3_TechMeet14.txt
+2025-11-13 19:11:40 | INFO | Text extraction completed for all PDFs.
+2025-11-13 19:11:40 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 19:11:40 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 19:11:40 | INFO | Starting document chunking...
+2025-11-13 19:11:40 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 19:11:40 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 19:11:47 | INFO | 🧩 Embedder cached + ready
+2025-11-13 19:11:47 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-13 19:11:47 | INFO | 📚 FAISS index cached + ready
+2025-11-13 19:11:49 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 19:12:51 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-13 19:12:51 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-13 19:12:51 | INFO | Text extraction completed for all PDFs.
+2025-11-13 19:12:51 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 19:12:51 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 19:12:51 | INFO | Starting document chunking...
+2025-11-13 19:12:51 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 19:12:51 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 19:12:51 | INFO | 🧩 Embedder cached + ready
+2025-11-13 19:12:51 | INFO | 📚 FAISS index cached + ready
+2025-11-13 19:12:51 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 19:12:51 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-13 19:12:51 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-13 19:12:51 | INFO | Text extraction completed for all PDFs.
+2025-11-13 19:12:51 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 19:12:51 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 19:12:51 | INFO | Starting document chunking...
+2025-11-13 19:12:51 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 19:12:51 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 19:12:51 | INFO | 🧩 Embedder cached + ready
+2025-11-13 19:12:51 | INFO | 📚 FAISS index cached + ready
+2025-11-13 19:12:51 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 19:12:51 | INFO | User query received: tell me about Real Time AI investment decision making use case.
+2025-11-13 19:12:52 | INFO | Top-3 chunks retrieved with scores
+2025-11-13 19:13:18 | INFO | 🕒 RAG answer generated in 26144.12 ms
+2025-11-13 19:13:18 | INFO | User query: tell me about Real Time AI investment decision making use case.
+2025-11-13 19:13:54 | INFO | MLflow UI launched on http://localhost:5000
+2025-11-13 19:13:54 | INFO | PDF uploaded: Pathway_H3_TechMeet14.pdf
+2025-11-13 19:13:54 | INFO | Skip extraction — Pathway_H3_TechMeet14.txt already exists
+2025-11-13 19:13:54 | INFO | Text extraction completed for all PDFs.
+2025-11-13 19:13:54 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 19:13:54 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 19:13:54 | INFO | Starting document chunking...
+2025-11-13 19:13:54 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 19:13:54 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 19:13:54 | INFO | 🧩 Embedder cached + ready
+2025-11-13 19:13:54 | INFO | 📚 FAISS index cached + ready
+2025-11-13 19:13:54 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 19:17:33 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 19:17:33 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 19:17:33 | INFO | Text extraction completed for all PDFs.
+2025-11-13 19:17:33 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 19:17:33 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 19:17:33 | INFO | Starting document chunking...
+2025-11-13 19:17:33 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 19:17:33 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 19:17:38 | INFO | 🧩 Embedder cached + ready
+2025-11-13 19:17:38 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-13 19:17:38 | INFO | 📚 FAISS index cached + ready
+2025-11-13 19:17:41 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 19:18:08 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 19:18:08 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 19:18:08 | INFO | Text extraction completed for all PDFs.
+2025-11-13 19:18:08 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 19:18:08 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 19:18:08 | INFO | Starting document chunking...
+2025-11-13 19:18:08 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 19:18:08 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 19:18:08 | INFO | 🧩 Embedder cached + ready
+2025-11-13 19:18:08 | INFO | 📚 FAISS index cached + ready
+2025-11-13 19:18:08 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 19:18:08 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 19:18:08 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 19:18:08 | INFO | Text extraction completed for all PDFs.
+2025-11-13 19:18:08 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 19:18:08 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 19:18:08 | INFO | Starting document chunking...
+2025-11-13 19:18:08 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 19:18:08 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 19:18:08 | INFO | 🧩 Embedder cached + ready
+2025-11-13 19:18:08 | INFO | 📚 FAISS index cached + ready
+2025-11-13 19:18:08 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 19:18:08 | INFO | User query received: what are the qualifications for SD role?
+2025-11-13 19:18:08 | INFO | Top-3 chunks retrieved with scores
+2025-11-13 19:18:34 | INFO | 🕒 RAG answer generated in 26060.49 ms
+2025-11-13 19:18:35 | INFO | User query: what are the qualifications for SD role?
+2025-11-13 19:18:51 | INFO | MLflow UI launched on http://localhost:5000
+2025-11-13 19:18:51 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 19:18:51 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 19:18:51 | INFO | Text extraction completed for all PDFs.
+2025-11-13 19:18:51 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 19:18:51 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 19:18:51 | INFO | Starting document chunking...
+2025-11-13 19:18:51 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 19:18:51 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 19:18:51 | INFO | 🧩 Embedder cached + ready
+2025-11-13 19:18:51 | INFO | 📚 FAISS index cached + ready
+2025-11-13 19:18:51 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 22:18:30 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 22:18:30 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 22:18:30 | INFO | Text extraction completed for all PDFs.
+2025-11-13 22:18:30 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 22:18:30 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 22:18:30 | INFO | Starting document chunking...
+2025-11-13 22:18:30 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 22:18:30 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 22:18:38 | INFO | 🧩 Embedder cached + ready
+2025-11-13 22:18:38 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-13 22:18:38 | INFO | 📚 FAISS index cached + ready
+2025-11-13 22:18:41 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 22:19:16 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 22:19:16 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 22:19:16 | INFO | Text extraction completed for all PDFs.
+2025-11-13 22:19:16 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 22:19:16 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 22:19:16 | INFO | Starting document chunking...
+2025-11-13 22:19:16 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 22:19:16 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 22:19:16 | INFO | 🧩 Embedder cached + ready
+2025-11-13 22:19:16 | INFO | 📚 FAISS index cached + ready
+2025-11-13 22:19:16 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 22:19:16 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 22:19:16 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 22:19:16 | INFO | Text extraction completed for all PDFs.
+2025-11-13 22:19:16 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 22:19:16 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 22:19:16 | INFO | Starting document chunking...
+2025-11-13 22:19:16 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 22:19:16 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 22:19:16 | INFO | 🧩 Embedder cached + ready
+2025-11-13 22:19:16 | INFO | 📚 FAISS index cached + ready
+2025-11-13 22:19:16 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 22:19:16 | INFO | User query received: What is the job description for AEH FTE?
+2025-11-13 22:19:16 | INFO | Top-3 chunks retrieved with scores
+2025-11-13 22:19:42 | INFO | 🕒 RAG answer generated in 25999.47 ms
+2025-11-13 22:19:42 | INFO | User query: What is the job description for AEH FTE?
+2025-11-13 22:20:28 | INFO | MLflow UI launched on http://localhost:5000
+2025-11-13 22:20:28 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 22:20:28 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 22:20:28 | INFO | Text extraction completed for all PDFs.
+2025-11-13 22:20:28 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 22:20:28 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 22:20:28 | INFO | Starting document chunking...
+2025-11-13 22:20:28 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 22:20:28 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 22:20:28 | INFO | 🧩 Embedder cached + ready
+2025-11-13 22:20:28 | INFO | 📚 FAISS index cached + ready
+2025-11-13 22:20:28 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 22:54:46 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-13 22:54:46 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-13 22:54:46 | INFO | Text extraction completed for all PDFs.
+2025-11-13 22:54:46 | INFO | Skipped embedding — FAISS already exists.
+2025-11-13 22:54:46 | INFO | 🔹 Initializing RAG Service...
+2025-11-13 22:54:46 | INFO | Starting document chunking...
+2025-11-13 22:54:46 | INFO | Chunking completed — total chunks created: 96
+2025-11-13 22:54:46 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-13 22:54:46 | INFO | 🧩 Embedder cached + ready
+2025-11-13 22:54:46 | INFO | 📚 FAISS index cached + ready
+2025-11-13 22:54:46 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-13 22:54:46 | INFO | User query received: What is the job description for AEH FTE?
+2025-11-13 22:54:46 | INFO | Top-3 chunks retrieved with scores
+2025-11-13 22:55:13 | INFO | 🕒 RAG answer generated in 26761.52 ms
+2025-11-13 22:55:13 | INFO | User query: What is the job description for AEH FTE?
+2025-11-14 09:32:39 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-14 09:32:39 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-14 09:32:39 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:32:39 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:32:39 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:32:39 | INFO | Starting document chunking...
+2025-11-14 09:32:39 | INFO | Chunking completed — total chunks created: 96
+2025-11-14 09:32:39 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-14 09:32:43 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:32:43 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-14 09:32:43 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:32:46 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:33:08 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-14 09:33:08 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-14 09:33:08 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:33:08 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:33:08 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:33:08 | INFO | Starting document chunking...
+2025-11-14 09:33:08 | INFO | Chunking completed — total chunks created: 96
+2025-11-14 09:33:08 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-14 09:33:08 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:33:08 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:33:08 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:33:08 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-14 09:33:08 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-14 09:33:08 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:33:08 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:33:08 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:33:08 | INFO | Starting document chunking...
+2025-11-14 09:33:08 | INFO | Chunking completed — total chunks created: 96
+2025-11-14 09:33:08 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-14 09:33:08 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:33:08 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:33:08 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:33:08 | INFO | User query received: what are the qualifications for SD role?
+2025-11-14 09:33:08 | INFO | Top-3 chunks retrieved with scores
+2025-11-14 09:33:34 | INFO | 🕒 RAG answer generated in 25968.14 ms
+2025-11-14 09:33:34 | INFO | User query: what are the qualifications for SD role?
+2025-11-14 09:33:51 | INFO | MLflow UI launched on http://localhost:5000
+2025-11-14 09:33:51 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-14 09:33:51 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-14 09:33:51 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:33:51 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:33:51 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:33:51 | INFO | Starting document chunking...
+2025-11-14 09:33:51 | INFO | Chunking completed — total chunks created: 96
+2025-11-14 09:33:51 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-14 09:33:51 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:33:51 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:33:51 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:34:27 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-14 09:34:27 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-14 09:34:27 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:34:27 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:34:27 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:34:27 | INFO | Starting document chunking...
+2025-11-14 09:34:27 | INFO | Chunking completed — total chunks created: 96
+2025-11-14 09:34:27 | INFO | 📘 Loaded 96 chunks from documents
+2025-11-14 09:34:27 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:34:27 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:34:27 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:34:27 | INFO | User query received: what are the qualifications for SD role?
+2025-11-14 09:34:27 | INFO | Top-3 chunks retrieved with scores
+2025-11-14 09:34:53 | INFO | 🕒 RAG answer generated in 26027.62 ms
+2025-11-14 09:34:53 | INFO | User query: what are the qualifications for SD role?
+2025-11-14 09:38:05 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-14 09:38:05 | INFO | Starting extraction for: AEH FTE JD.pdf
+2025-11-14 09:38:05 | INFO | Extracted and saved: AEH FTE JD.txt
+2025-11-14 09:38:05 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:38:05 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:38:05 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:38:05 | INFO | Starting document chunking...
+2025-11-14 09:38:05 | INFO | Chunking completed — total chunks created: 11
+2025-11-14 09:38:05 | INFO | 📘 Loaded 11 chunks from documents
+2025-11-14 09:38:10 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:38:10 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-14 09:38:10 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:38:12 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:38:32 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-14 09:38:32 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-14 09:38:32 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:38:32 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:38:32 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:38:32 | INFO | Starting document chunking...
+2025-11-14 09:38:32 | INFO | Chunking completed — total chunks created: 11
+2025-11-14 09:38:32 | INFO | 📘 Loaded 11 chunks from documents
+2025-11-14 09:38:32 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:38:32 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:38:32 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:38:33 | INFO | PDF uploaded: AEH FTE JD.pdf
+2025-11-14 09:38:33 | INFO | Skip extraction — AEH FTE JD.txt already exists
+2025-11-14 09:38:33 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:38:33 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:38:33 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:38:33 | INFO | Starting document chunking...
+2025-11-14 09:38:33 | INFO | Chunking completed — total chunks created: 11
+2025-11-14 09:38:33 | INFO | 📘 Loaded 11 chunks from documents
+2025-11-14 09:38:33 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:38:33 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:38:33 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:38:33 | INFO | User query received: what are the qualifications for SD role?
+2025-11-14 09:38:33 | INFO | Top-3 chunks retrieved with scores
+2025-11-14 09:38:49 | INFO | 🕒 RAG answer generated in 16361.96 ms
+2025-11-14 09:38:49 | INFO | User query: what are the qualifications for SD role?
+2025-11-14 09:39:31 | INFO | PDF uploaded: ML.pdf
+2025-11-14 09:39:31 | INFO | Starting extraction for: ML.pdf
+2025-11-14 09:39:31 | INFO | Extracted and saved: ML.txt
+2025-11-14 09:39:31 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:39:31 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:39:31 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:39:31 | INFO | Starting document chunking...
+2025-11-14 09:39:31 | INFO | Chunking completed — total chunks created: 46
+2025-11-14 09:39:31 | INFO | 📘 Loaded 46 chunks from documents
+2025-11-14 09:39:31 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:39:31 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:39:31 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:39:47 | INFO | PDF uploaded: ML.pdf
+2025-11-14 09:39:47 | INFO | Skip extraction — ML.txt already exists
+2025-11-14 09:39:47 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:39:47 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:39:47 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:39:47 | INFO | Starting document chunking...
+2025-11-14 09:39:47 | INFO | Chunking completed — total chunks created: 46
+2025-11-14 09:39:47 | INFO | 📘 Loaded 46 chunks from documents
+2025-11-14 09:39:47 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:39:47 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:39:47 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:39:47 | INFO | PDF uploaded: ML.pdf
+2025-11-14 09:39:47 | INFO | Skip extraction — ML.txt already exists
+2025-11-14 09:39:47 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:39:47 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:39:47 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:39:47 | INFO | Starting document chunking...
+2025-11-14 09:39:47 | INFO | Chunking completed — total chunks created: 46
+2025-11-14 09:39:47 | INFO | 📘 Loaded 46 chunks from documents
+2025-11-14 09:39:47 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:39:47 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:39:47 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:39:47 | INFO | User query received: what is supervised learning?
+2025-11-14 09:39:47 | INFO | Top-3 chunks retrieved with scores
+2025-11-14 09:40:13 | INFO | 🕒 RAG answer generated in 25894.03 ms
+2025-11-14 09:40:13 | INFO | User query: what is supervised learning?
+2025-11-14 09:41:20 | INFO | PDF uploaded: ML.pdf
+2025-11-14 09:41:20 | INFO | Skip extraction — ML.txt already exists
+2025-11-14 09:41:20 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:41:20 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:41:20 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:41:20 | INFO | Starting document chunking...
+2025-11-14 09:41:20 | INFO | Chunking completed — total chunks created: 46
+2025-11-14 09:41:20 | INFO | 📘 Loaded 46 chunks from documents
+2025-11-14 09:41:20 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:41:20 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:41:20 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:41:20 | INFO | PDF uploaded: ML.pdf
+2025-11-14 09:41:20 | INFO | Skip extraction — ML.txt already exists
+2025-11-14 09:41:20 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:41:20 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:41:20 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:41:20 | INFO | Starting document chunking...
+2025-11-14 09:41:20 | INFO | Chunking completed — total chunks created: 46
+2025-11-14 09:41:20 | INFO | 📘 Loaded 46 chunks from documents
+2025-11-14 09:41:20 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:41:20 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:41:20 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:41:20 | INFO | User query received: what is qualifications for SD role?
+2025-11-14 09:41:20 | INFO | Top-3 chunks retrieved with scores
+2025-11-14 09:41:41 | INFO | 🕒 RAG answer generated in 20559.10 ms
+2025-11-14 09:41:41 | INFO | User query: what is qualifications for SD role?
+2025-11-14 09:42:05 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-14 09:42:05 | INFO | Starting extraction for: Job Description - Software Engineer.pdf
+2025-11-14 09:42:06 | INFO | Extracted and saved: Job Description - Software Engineer.txt
+2025-11-14 09:42:06 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:42:06 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:42:06 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:42:06 | INFO | Starting document chunking...
+2025-11-14 09:42:06 | INFO | Chunking completed — total chunks created: 53
+2025-11-14 09:42:06 | INFO | 📘 Loaded 53 chunks from documents
+2025-11-14 09:42:06 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:42:06 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:42:06 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:42:29 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-14 09:42:29 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-14 09:42:29 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:42:29 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:42:29 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:42:29 | INFO | Starting document chunking...
+2025-11-14 09:42:29 | INFO | Chunking completed — total chunks created: 53
+2025-11-14 09:42:29 | INFO | 📘 Loaded 53 chunks from documents
+2025-11-14 09:42:29 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:42:29 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:42:29 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:42:29 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-14 09:42:29 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-14 09:42:29 | INFO | Text extraction completed for all PDFs.
+2025-11-14 09:42:29 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 09:42:29 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 09:42:29 | INFO | Starting document chunking...
+2025-11-14 09:42:29 | INFO | Chunking completed — total chunks created: 53
+2025-11-14 09:42:29 | INFO | 📘 Loaded 53 chunks from documents
+2025-11-14 09:42:29 | INFO | 🧩 Embedder cached + ready
+2025-11-14 09:42:29 | INFO | 📚 FAISS index cached + ready
+2025-11-14 09:42:29 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 09:42:29 | INFO | User query received: what are qualifications for SD role?
+2025-11-14 09:42:29 | INFO | Top-3 chunks retrieved with scores
+2025-11-14 09:42:55 | INFO | 🕒 RAG answer generated in 25919.64 ms
+2025-11-14 09:42:55 | INFO | User query: what are qualifications for SD role?
+2025-11-14 10:32:27 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-14 10:32:27 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-14 10:32:27 | INFO | Text extraction completed for all PDFs.
+2025-11-14 10:32:27 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 10:32:27 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 10:32:27 | INFO | Starting document chunking...
+2025-11-14 10:32:27 | INFO | Chunking completed — total chunks created: 53
+2025-11-14 10:32:27 | INFO | 📘 Loaded 53 chunks from documents
+2025-11-14 10:32:33 | INFO | 🧩 Embedder cached + ready
+2025-11-14 10:32:33 | INFO | FAISS index loaded from → ./data/vector_store/faiss.index
+2025-11-14 10:32:33 | INFO | 📚 FAISS index cached + ready
+2025-11-14 10:32:36 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 10:33:06 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-14 10:33:06 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-14 10:33:06 | INFO | Text extraction completed for all PDFs.
+2025-11-14 10:33:06 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 10:33:06 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 10:33:06 | INFO | Starting document chunking...
+2025-11-14 10:33:06 | INFO | Chunking completed — total chunks created: 53
+2025-11-14 10:33:06 | INFO | 📘 Loaded 53 chunks from documents
+2025-11-14 10:33:06 | INFO | 🧩 Embedder cached + ready
+2025-11-14 10:33:06 | INFO | 📚 FAISS index cached + ready
+2025-11-14 10:33:06 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 10:34:05 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-14 10:34:05 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-14 10:34:05 | INFO | PDF uploaded: leac203.pdf
+2025-11-14 10:34:05 | INFO | Starting extraction for: leac203.pdf
+2025-11-14 10:34:07 | INFO | Extracted and saved: leac203.txt
+2025-11-14 10:34:07 | INFO | Text extraction completed for all PDFs.
+2025-11-14 10:34:07 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 10:34:07 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 10:34:07 | INFO | Starting document chunking...
+2025-11-14 10:34:07 | INFO | Chunking completed — total chunks created: 155
+2025-11-14 10:34:07 | INFO | 📘 Loaded 155 chunks from documents
+2025-11-14 10:34:07 | INFO | 🧩 Embedder cached + ready
+2025-11-14 10:34:07 | INFO | 📚 FAISS index cached + ready
+2025-11-14 10:34:07 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 10:34:40 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-14 10:34:40 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-14 10:34:40 | INFO | PDF uploaded: leac203.pdf
+2025-11-14 10:34:40 | INFO | Skip extraction — leac203.txt already exists
+2025-11-14 10:34:40 | INFO | Text extraction completed for all PDFs.
+2025-11-14 10:34:40 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 10:34:40 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 10:34:40 | INFO | Starting document chunking...
+2025-11-14 10:34:40 | INFO | Chunking completed — total chunks created: 155
+2025-11-14 10:34:40 | INFO | 📘 Loaded 155 chunks from documents
+2025-11-14 10:34:40 | INFO | 🧩 Embedder cached + ready
+2025-11-14 10:34:40 | INFO | 📚 FAISS index cached + ready
+2025-11-14 10:34:40 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 10:34:40 | INFO | PDF uploaded: Job Description - Software Engineer.pdf
+2025-11-14 10:34:40 | INFO | Skip extraction — Job Description - Software Engineer.txt already exists
+2025-11-14 10:34:40 | INFO | PDF uploaded: leac203.pdf
+2025-11-14 10:34:40 | INFO | Skip extraction — leac203.txt already exists
+2025-11-14 10:34:40 | INFO | Text extraction completed for all PDFs.
+2025-11-14 10:34:40 | INFO | Skipped embedding — FAISS already exists.
+2025-11-14 10:34:40 | INFO | 🔹 Initializing RAG Service...
+2025-11-14 10:34:40 | INFO | Starting document chunking...
+2025-11-14 10:34:40 | INFO | Chunking completed — total chunks created: 155
+2025-11-14 10:34:40 | INFO | 📘 Loaded 155 chunks from documents
+2025-11-14 10:34:40 | INFO | 🧩 Embedder cached + ready
+2025-11-14 10:34:40 | INFO | 📚 FAISS index cached + ready
+2025-11-14 10:34:40 | INFO | 🧠 LLM cached + ready: Qwen/Qwen2.5-0.5B-Instruct
+2025-11-14 10:34:40 | INFO | User query received: Give the summary of the Financial Statement
+2025-11-14 10:34:40 | INFO | Top-3 chunks retrieved with scores
+2025-11-14 10:35:06 | INFO | 🕒 RAG answer generated in 26072.75 ms
+2025-11-14 10:35:06 | INFO | User query: Give the summary of the Financial Statement

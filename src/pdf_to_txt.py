@@ -2,41 +2,41 @@ import os
 import pdfplumber
 from pdf2image import convert_from_path
 import pytesseract
+from src.logger import get_logger
 
-def extract_text_from_pdfs(pdf_folder="./data/pdfs/", txt_folder="./data/docs/"):
+log = get_logger()
+
+def extract_text_from_pdf(pdf_path, txt_folder="./data/docs/"):
     """
-    Extract text from PDFs using pdfplumber.
-    If page has no text, fallback to OCR (Tesseract).
+    Extract text for just ONE pdf
     """
     os.makedirs(txt_folder, exist_ok=True)
 
-    pdf_files = [f for f in os.listdir(pdf_folder) if f.lower().endswith(".pdf")]
-    if not pdf_files:
-        print(f"No PDFs found in {pdf_folder}")
-        return
+    filename = os.path.basename(pdf_path)
+    txt_filename = os.path.splitext(filename)[0] + ".txt"
+    txt_path = os.path.join(txt_folder, txt_filename)
 
-    for filename in pdf_files:
-        pdf_path = os.path.join(pdf_folder, filename)
-        text = ""
+    # skip if already exists
+    if os.path.exists(txt_path):
+        log.info(f"Skip extraction — {txt_filename} already exists")
+        return txt_path
 
-        with pdfplumber.open(pdf_path) as pdf:
-            for i, page in enumerate(pdf.pages):
-                page_text = page.extract_text()
-                if page_text and page_text.strip():
-                    text += page_text + "\n"
-                else:
-                    # OCR fallback
-                    images = convert_from_path(pdf_path, first_page=i+1, last_page=i+1)
-                    for image in images:
-                        ocr_text = pytesseract.image_to_string(image, lang='eng', config='--psm 3')
-                        text += ocr_text + "\n"
+    log.info(f"Starting extraction for: {filename}")
+    text = ""
 
-        txt_filename = os.path.splitext(filename)[0] + ".txt"
-        txt_path = os.path.join(txt_folder, txt_filename)
-        with open(txt_path, "w", encoding="utf-8") as f:
-            f.write(text)
+    with pdfplumber.open(pdf_path) as pdf:
+        for i, page in enumerate(pdf.pages):
+            page_text = page.extract_text()
+            if page_text and page_text.strip():
+                text += page_text + "\n"
+            else:
+                images = convert_from_path(pdf_path, first_page=i+1, last_page=i+1)
+                for image in images:
+                    ocr_text = pytesseract.image_to_string(image, lang='eng', config='--psm 3')
+                    text += ocr_text + "\n"
 
-        print(f"✅ Extracted {filename} → {txt_filename}")
+    with open(txt_path, "w", encoding="utf-8") as f:
+        f.write(text)
 
-if __name__ == "__main__":
-    extract_text_from_pdfs()
+    log.info(f"Extracted and saved: {txt_filename}")
+    return txt_path

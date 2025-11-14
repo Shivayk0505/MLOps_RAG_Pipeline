@@ -21,3 +21,5 @@ pdfplumber
 accelerate
 pytesseract 
 pdf2image
+streamlit
+huggingface-hub

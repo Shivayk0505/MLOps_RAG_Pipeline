@@ -1,0 +1,14 @@
+artifact_uri: file:///home/user/github_mlops/shiva/MLOps_RAG_Pipeline/mlruns/402572326010754221/003f9b4d39e247cc8ccbc2b0e4bdf8de/artifacts
+end_time: 1762790810205
+entry_point_name: ''
+experiment_id: '402572326010754221'
+lifecycle_stage: active
+run_id: 003f9b4d39e247cc8ccbc2b0e4bdf8de
+run_name: RAG_current_dataset_213649
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762790810190
+status: 3
+tags: []
+user_id: user
