@@ -16,21 +16,21 @@ def process_pdf_and_build_index(pdf_path):
     pdf_folder = os.path.dirname(pdf_path)
     txt_folder = config["data_path"]
 
-    # 1️⃣ Extract text
+    #  Extract text
     print(f"🔹 Extracting text from {pdf_path}")
     extract_text_from_pdfs(pdf_folder=pdf_folder, txt_folder=txt_folder)
 
-    # 2️⃣ Load extracted text
+    #  Load extracted text
     print("🔹 Loading extracted text...")
     texts = load_text_files(txt_folder)
 
-    # 3️⃣ Chunk and embed
+    #  Chunk and embed
     print("🔹 Chunking and embedding...")
     chunks = chunk_documents(texts)
     embeddings, _ = get_embeddings(chunks)
 
-    # 4️⃣ Store in FAISS
+    #  Store in FAISS
     print("🔹 Saving FAISS index...")
     save_faiss_index(embeddings, config["vector_store_path"])
 
-    print("✅ PDF processed and stored successfully!")
+    print(" PDF processed and stored successfully!")
