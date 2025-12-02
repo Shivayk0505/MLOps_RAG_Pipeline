@@ -23,13 +23,13 @@ class RAGService:
 
         # --- Cached global models ---
         self.embedder = get_embedder()
-        log.info("🧩 Embedder cached + ready")
+        log.info(" Embedder cached + ready")
 
         self.faiss_index = get_faiss()
-        log.info("📚 FAISS index cached + ready")
+        log.info(" FAISS index cached + ready")
 
         self.tokenizer, self.model = get_llm()
-        log.info(f"🧠 LLM cached + ready: {self.config['llm_model']}")
+        log.info(f" LLM cached + ready: {self.config['llm_model']}")
 
     # ------------------------------------------------------------------
     # 🔍 Core query handler
@@ -56,7 +56,7 @@ class RAGService:
 
         # --- Step 4: Track latency ---
         latency = (time.perf_counter() - start) * 1000
-        log.info(f"🕒 RAG answer generated in {latency:.2f} ms")
+        log.info(f" RAG answer generated in {latency:.2f} ms")
 
         # --- Step 5: MLflow experiment tracking ---
         try:
@@ -69,7 +69,7 @@ class RAGService:
             )
             log.debug("RAG run logged to MLflow.")
         except Exception as e:
-            log.warning(f"⚠️ MLflow logging failed: {e}")
+            log.warning(f" MLflow logging failed: {e}")
 
         # --- Step 6: Return final structured result ---
         return {
