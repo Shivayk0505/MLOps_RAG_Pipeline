@@ -19,19 +19,19 @@ from src.data_loader import load_text_files
 log = get_logger()
 
 # -------------------------------------------------------------
-# 🎨 Streamlit UI Setup
+#  Streamlit UI Setup
 # -------------------------------------------------------------
 st.set_page_config(page_title="RAG PDF Assistant", page_icon="🤖", layout="wide")
-st.title("📄 RAG-based PDF Assistant")
+st.title(" RAG-based PDF Assistant")
 st.write("Upload one or more PDFs, index them, and ask questions about their contents!")
 
 config = load_config()
 rag = None
 
 # -------------------------------------------------------------
-# 🧠 MLflow Dashboard Launcher
+#  MLflow Dashboard Launcher
 # -------------------------------------------------------------
-st.sidebar.markdown("### 🧠 MLflow Experiment Tracking")
+st.sidebar.markdown("###  MLflow Experiment Tracking")
 
 def find_free_port(start_port=5000, max_tries=10):
     """Find the first available port starting from `start_port`."""
@@ -41,7 +41,7 @@ def find_free_port(start_port=5000, max_tries=10):
                 return port
     return start_port  # fallback
 
-if st.sidebar.button("🚀 Open MLflow Dashboard"):
+if st.sidebar.button(" Open MLflow Dashboard"):
     try:
         python_exec = sys.executable
         port = find_free_port(5000)
@@ -57,11 +57,11 @@ if st.sidebar.button("🚀 Open MLflow Dashboard"):
         st.sidebar.success(f"MLflow UI launched successfully on port {port} 🌐")
         log.info(f"MLflow UI launched on http://localhost:{port}")
     except Exception as e:
-        st.sidebar.error(f"❌ Failed to start MLflow UI: {e}")
+        st.sidebar.error(f"Failed to start MLflow UI: {e}")
         log.error(f"Failed to launch MLflow UI: {e}")
 
 # -------------------------------------------------------------
-# 📤 File Upload Section (supports multiple PDFs)
+#  File Upload Section (supports multiple PDFs)
 # -------------------------------------------------------------
 uploaded_files = st.sidebar.file_uploader("Upload PDF(s)", type=["pdf"], accept_multiple_files=True)
 pdf_dir = "data/pdfs"
@@ -74,17 +74,17 @@ if uploaded_files:
         with open(pdf_path, "wb") as f:
             f.write(uploaded_file.read())
 
-        st.sidebar.success(f"✅ Uploaded: {uploaded_file.name}")
+        st.sidebar.success(f" Uploaded: {uploaded_file.name}")
         log.info(f"PDF uploaded: {uploaded_file.name}")
 
         # Extract text for this specific file
         extract_text_from_pdf(pdf_path, txt_folder=config["data_path"])
 
-    st.sidebar.info("📄 PDF text extraction completed for all uploads.")
+    st.sidebar.info(" PDF text extraction completed for all uploads.")
     log.info("Text extraction completed for all PDFs.")
 
     # -------------------------------------------------------------
-    # ⚙️ FAISS & Embeddings Handling
+    #  FAISS & Embeddings Handling
     # -------------------------------------------------------------
     faiss_index_path = os.path.join(config["vector_store_path"], "faiss.index")
 
@@ -97,7 +97,7 @@ if uploaded_files:
         embeddings, _ = get_embeddings(chunks)
         save_faiss_index(embeddings, config["vector_store_path"])
 
-        st.sidebar.success("🧠 Embeddings & FAISS index created successfully!")
+        st.sidebar.success(" Embeddings & FAISS index created successfully!")
         log.info("Embeddings & FAISS index created successfully.")
     else:
         st.sidebar.info("FAISS index already exists — skipping embedding step.")
@@ -107,10 +107,10 @@ if uploaded_files:
     rag = RAGService()
 
 # -------------------------------------------------------------
-# 💬 Q&A Interface
+#  Q&A Interface
 # -------------------------------------------------------------
 if rag:
-    st.subheader("Ask your document(s) a question 👇")
+    st.subheader("Ask your document(s) a question ")
     query = st.text_input("Enter your question:")
     top_k = st.slider("Number of chunks to retrieve", 1, 10, 3)
 
@@ -122,7 +122,7 @@ if rag:
             st.markdown("### 💬 Answer")
             st.write(result["answer"])
 
-            # ✅ Show context chunks used (transparency)
+            #  Show context chunks used (transparency)
             if "chunks" in result and len(result["chunks"]) > 0:
                 with st.expander("📚 Context used"):
                     for i, c in enumerate(result["chunks"], start=1):
