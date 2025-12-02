@@ -14,7 +14,7 @@ def load_llm(model_name, fallback_model="microsoft/Phi-3-mini-4k-instruct", hf_t
     try:
         tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
 
-        # ✅ important fix for truncated outputs
+        # important fix for truncated outputs
         tokenizer.pad_token = tokenizer.eos_token              # <-- added
 
         model = AutoModelForCausalLM.from_pretrained(
@@ -32,7 +32,7 @@ def load_llm(model_name, fallback_model="microsoft/Phi-3-mini-4k-instruct", hf_t
 
         tokenizer = AutoTokenizer.from_pretrained(fallback_model)
 
-        # ✅ also set inside fallback
+        # also set inside fallback
         tokenizer.pad_token = tokenizer.eos_token              # <-- added
 
         model = AutoModelForCausalLM.from_pretrained(
@@ -131,18 +131,18 @@ def main():
 
     tokenizer, model = load_llm(config["llm_model"])
 
-    print("\n✅ RAG Pipeline ready. Type your questions (or 'exit').")
+    print("\n RAG Pipeline ready. Type your questions (or 'exit').")
 
     while True:
-        query = input("\n❓ Enter your question: ").strip()
+        query = input("\n Enter your question: ").strip()
         if query.lower() in ["exit", "quit", "q"]:
-            print("👋 Exiting RAG system.")
+            print(" Exiting RAG system.")
             break
 
         retrieved = retrieve_top_k(query, embedder_model, chunks, k=3)
         answer = generate_answer(query, retrieved, tokenizer, model)
 
-        print("\n💡 Answer:", answer)
+        print("\n Answer:", answer)
 
 
 if __name__ == "__main__":
